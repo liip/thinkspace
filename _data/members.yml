@@ -1,0 +1,12 @@
+- name: TawiPay
+  url: http://www.tawipay.com
+  logo: tawipay.png
+- name: Mondays.ch
+  url: http://www.mondays.ch
+  logo: mondays.png
+- name: Liip
+  url: http://www.liip.ch
+  logo: liip.png
+- name: Skioo
+  url: http://www.skioo.com
+  logo: skioo.png

@@ -1,0 +1,19 @@
+{
+  "name": "etraz4",
+  "version": "1.0.0",
+  "description": "``` gem install jekyll npm install jekyll serve ```",
+  "main": "index.html",
+  "dependencies": {
+    "kanbasu": "^1.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.liip.ch:germain.hugon/etraz4.git"
+  },
+  "author": "Liip",
+  "license": "ISC"
+}

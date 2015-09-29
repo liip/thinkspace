@@ -1,0 +1,7 @@
+<h2>{{ t.menu.benefits }}</h2>
+<ul>
+{% for benefit in site.data.benefits %}
+  <li>{{ benefit.name[page.lang] }}</a>
+  </li>
+{% endfor %}
+</ul>

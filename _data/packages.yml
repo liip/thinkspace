@@ -1,0 +1,15 @@
+- name: Nest
+  price: 1500
+  description:
+    en: lorem ipsum
+    fr: french lorem ipsum
+- name: Jump
+  price: 2000
+  description:
+    en: lorem ipsum JUMP
+    fr: french lorem ipsum JUMP
+- name: Take off
+  price: 2300
+  description:
+    en: lorem ipsum take off
+    fr: french lorem ipsum take off

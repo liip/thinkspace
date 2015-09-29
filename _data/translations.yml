@@ -1,0 +1,28 @@
+en:
+  menu:
+    packages: Packages
+    map: Map
+    members: Members
+    contact: Contact us
+  form:
+    first_name: First name
+    last_name: last_name
+    email: Email
+    message: Message
+    send: Send
+  other:
+    month: Month
+fr:
+  menu:
+    packages: Pack et options
+    map: Nous trouver
+    members: Membres
+    contact: Contactez-nous
+  form:
+    first_name: Prénom
+    last_name: Nom
+    email: Email
+    message: Message
+    send: Envoyer
+  other:
+    month: Mois

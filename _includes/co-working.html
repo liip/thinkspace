@@ -1,0 +1,7 @@
+{% if page.lang == "en" %}
+  {% capture coworking %}{% include co-working-en.md %}{% endcapture %}
+{% else %}
+  {% capture coworking %}{% include co-working-fr.md %}{% endcapture %}
+{% endif %}
+
+{{ coworking | markdownify }}
