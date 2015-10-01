@@ -1,10 +1,15 @@
-<h2>{{ t.menu.packages }}</h2>
-<ul>
-{% for member in site.data.packages %}
-  <li>
-    <h3>{{ member.name }}</h3>
-    <p>{{ member.description[page.lang] }}</p>
-    <p>{{ member.price }} CHF/{{t.other.month}}</p>
-  </li>
-{% endfor %}
-</ul>
+<section>
+  <div class="centered-layout">
+    <header>
+      <h2>{{ t.menu.packages }}</h2>
+    </header>
+
+    {% for member in site.data.packages %}
+      <article>
+        <h3>{{ member.name }}</h3>
+        <p>{{ member.description[page.lang] }}</p>
+        <p>{{ member.price }} CHF/{{t.other.month}}</p>
+      </article>
+    {% endfor %}
+  </div>
+</section>

@@ -11,17 +11,25 @@
   </head>
 
   <body>
-    {% for page in site.pages %}
-      {% if page.lang %}
-        <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.lang }}</a>
-      {% endif %}
-    {% endfor %}
+    <header>
+      <nav class="centered-layout">
+        <ul class="list-inline mrgb+">
+          <li>{{ page.nav-concept }}</li>
+          <li>{{ page.nav-package }}</li>
+          <li>{{ page.nav-members }}</li>
+          <li>{{ page.nav-contact }}</li>
+        </ul>
+        <ul class="list-inline mrgb+">
+          {% for page in site.pages %}
+            {% if page.lang %}
+              <li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.lang }}</a></li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </nav>
+    </header>
 
-    <div class="grid">
-      <div class="grid__item w-3/6">
-        {{ content }}
-      </div>
-    </div>
+    {{ content }}
 
     <script type="text/javascript">
       var APP = {

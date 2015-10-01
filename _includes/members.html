@@ -1,8 +1,13 @@
-<h2>{{ t.menu.members }}</h2>
-<ul>
-{% for member in site.data.members %}
-  <li>
-    <a href="{{ member.url }}">{{ member.name }}</a>
-  </li>
-{% endfor %}
-</ul>
+<section class="centered-layout">
+  <header>
+    <h2>{{ t.menu.members }}</h2>
+  </header>
+
+  <ul>
+    {% for member in site.data.members %}
+      <li>
+        <a href="{{ member.url }}">{{ member.name }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
