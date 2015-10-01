@@ -3,7 +3,11 @@
  * LAYOUT
  */
 
-.centered-layout {
+body {
+  font-family: 'EticaBook';
+}
+
+.wrapper {
   max-width: 1024px;
 
   margin: 0 auto;

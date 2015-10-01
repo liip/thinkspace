@@ -12,14 +12,14 @@
 
   <body>
     <header>
-      <nav class="centered-layout">
-        <ul class="list-inline mrgb+">
-          <li>{{ page.nav-concept }}</li>
-          <li>{{ page.nav-package }}</li>
-          <li>{{ page.nav-members }}</li>
-          <li>{{ page.nav-contact }}</li>
+      <nav class="wrapper clearfix">
+        <ul class="list-inline mrgb+ pull-left">
+          <li>{{ t.menu.concept }}</li>
+          <li>{{ t.menu.packages }}</li>
+          <li>{{ t.menu.members }}</li>
+          <li>{{ t.menu.contact }}</li>
         </ul>
-        <ul class="list-inline mrgb+">
+        <ul class="list-inline mrgb+ pull-right">
           {% for page in site.pages %}
             {% if page.lang %}
               <li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.lang }}</a></li>
