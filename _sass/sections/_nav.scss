@@ -1,0 +1,48 @@
+/**
+ * Base
+ * NAV
+ */
+
+nav {
+  height: $spacing-unit-huge;
+
+  padding: $spacing-unit-default 0;
+
+  position: relative;
+
+  .logo {
+    position: absolute;
+    top: 15px;
+    left: 0;
+  }
+
+  ul {
+    position: absolute;
+    top: 30px;
+    right: 0;
+  }
+}
+
+  .logo {
+    color: $brand-color;
+
+    font-weight: bold;
+
+    .thin {
+      font-weight: normal;
+    }
+  }
+
+  a {
+    color: $alt-color;
+
+    text-decoration: none;
+  }
+
+  a.active, a:hover {
+    font-weight: bold;
+  }
+
+  .locale {
+    text-transform: uppercase;
+  }

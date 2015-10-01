@@ -1,8 +1,9 @@
 en:
   menu:
+    concept: Concept
     packages: Packages
-    map: Map
-    members: Members
+    map: Office map
+    members: Current Members
     contact: Contact us
   form:
     first_name: First name
@@ -14,10 +15,11 @@ en:
     month: Month
 fr:
   menu:
-    packages: Pack et options
-    map: Nous trouver
+    concept: Concept
+    packages: Packages
+    map: Office plan
     members: Membres
-    contact: Contactez-nous
+    contact: Contacter nous
   form:
     first_name: Prénom
     last_name: Nom

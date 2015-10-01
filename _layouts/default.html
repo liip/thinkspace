@@ -1,3 +1,5 @@
+{% assign t = site.data.translations[page.lang] %}
+
 <!DOCTYPE html>
 <html lang="{{ page.lang }}">
   <head>
@@ -11,20 +13,21 @@
   </head>
 
   <body>
-    <header>
-      <nav class="wrapper clearfix">
-        <ul class="list-inline mrgb+ pull-left">
-          <li>{{ t.menu.concept }}</li>
-          <li>{{ t.menu.packages }}</li>
-          <li>{{ t.menu.members }}</li>
-          <li>{{ t.menu.contact }}</li>
-        </ul>
-        <ul class="list-inline mrgb+ pull-right">
+    <header class="wrapper">
+      <nav>
+        <h1 class="logo mrgb0"><span class="thin">Think</span>Space</h1>
+        <ul class="list-inline">
+          <li><a href="#" class="active">{{ t.menu.concept }}</a></li>
+          <li><a href="#">{{ t.menu.packages }}</a></li>
+          <li><a href="#">{{ t.menu.members }}</a></li>
+          <li><a href="#">{{ t.menu.contact }}</a></li>
+
           {% for page in site.pages %}
             {% if page.lang %}
-              <li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.lang }}</a></li>
+              <li class="locale"><a href="{{ page.url | prepend: site.baseurl }}">{{ page.lang }}</a></li>
             {% endif %}
           {% endfor %}
+
         </ul>
       </nav>
     </header>
@@ -36,7 +39,7 @@
         contact_email: 'germain.hugon@liip.ch'
       };
     </script>
-    <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script src="{{ "/assets/js/contact.js" | prepend: site.baseurl }}"></script>
+    <!-- <script src="//code.jquery.com/jquery-2.1.4.min.js"></script> -->
+    <!-- <script src="{{ "/assets/js/contact.js" | prepend: site.baseurl }}"></script> -->
   </body>
 </html>

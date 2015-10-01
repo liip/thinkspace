@@ -1,6 +1,7 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
+
 @charset "utf-8";
 
 // settings kanbasu
@@ -9,8 +10,9 @@
   "kanbasu";
 
 @import
-  "base/_layout",
-  "base/_fonts";
+  "sections/_headline",
+  "sections/_nav";
 
 @import
-  "sections/_headline";
+  "base/_layout",
+  "base/_fonts";
