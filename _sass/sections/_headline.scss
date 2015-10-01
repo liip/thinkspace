@@ -4,5 +4,51 @@
  */
 
 .headline {
+  height: 92vh;
+
+  position: relative;
+
+  background-size: cover;
+  background-position: center;
   background-image: url('/assets/images/background-tagline.jpg');
 }
+
+  .headline__title {
+    font-size: $alt-font-size-default;
+    font-weight: bold;
+
+    color: $alt-color-lighter;
+
+    span {
+      display: inline-block;
+
+      padding: $spacing-unit-tiny;
+
+      background-color: rgba($brand-color, .5);
+    }
+  }
+
+    .headline__title-size--small {
+      font-size: $alt-font-size-small;
+    }
+
+    .headline__title-size--large {
+      font-size: $alt-font-size-large;
+    }
+
+  .headline__footer {
+    width: 100%;
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    background-color: rgba($brand-color, .5);
+  }
+
+    .headline__footer__title {
+      font-size: $font-size-large;
+      text-transform: uppercase;
+
+      color: $alt-color-lighter;
+    }

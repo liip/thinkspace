@@ -5,9 +5,12 @@ en:
     map: Office map
     members: Current Members
     contact: Contact us
+  headline:
+    line: <span class="headline__title-size--default">Work on your dreams</span><br /> <span class="headline__title-size--small mrgb-">with other</span><br /> <span class="headline__title-size--large">dreamers</span>
+    footer: location d'espace pour starups et PME actives dans le domaine du digital
   form:
     first_name: First name
-    last_name: last_name
+    last_name: Last name
     email: Email
     message: Message
     send: Send
@@ -20,6 +23,9 @@ fr:
     map: Office plan
     members: Membres
     contact: Contacter nous
+  headline:
+    line: <span class="headline__title-size--default">Work on your dreams</span><br /> <span class="headline__title-size--small mrgb-">with other</span><br /> <span class="headline__title-size--large">dreamers</span>
+    footer: location d'espace pour starups et PME actives dans le domaine du digital
   form:
     first_name: Prénom
     last_name: Nom
