@@ -3,11 +3,11 @@
     <h2>{{ t.menu.members }}</h2>
   </header>
 
-  <ul>
+  <div class="grid">
     {% for member in site.data.members %}
-      <li>
-        <a href="{{ member.url }}">{{ member.name }}</a>
-      </li>
+      <div class="grid__item w-1/4">
+        <a href="{{ member.url }}"><img src="/assets/images/{{ member.logo }}" alt="{{ member.name }}" class="member__logo"></a>
+      </div>
     {% endfor %}
-  </ul>
+  </div>
 </section>

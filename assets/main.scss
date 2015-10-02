@@ -12,11 +12,11 @@
 @import
   "sections/_headline",
   "sections/_nav",
-  "sections/_packages";
+  "sections/_packages",
+  "sections/_members";
 
 @import
   "base/_layout",
   "base/_fonts";
 
-  @import
-    "sprites/_icones-benefits";
+@import "sprites/_icones-benefits";
