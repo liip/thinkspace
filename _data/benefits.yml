@@ -1,0 +1,36 @@
+- name:
+    en: city center
+    fr: centre ville
+  slug: city-center
+- name:
+    en: interactions
+    fr: interactions
+  slug: interactions
+- name:
+    en: meeting room
+    fr: salle de conférence
+  slug: meeting-room
+- name:
+    en: cancellation 3 month
+    fr: résiliation 3 mois
+  slug: cancellation
+- name:
+    en: Coffee place
+    fr: Caféteria
+  slug: coffee
+- name:
+    en: chill zone
+    fr: chill zone
+  slug: chill
+- name:
+    en: wifi
+    fr: wifi
+  slug: wifi
+- name:
+    en: copy machine
+    fr: photocopieuse
+  slug: copy
+- name:
+    en: access 24/7
+    fr: access 24/7
+  slug: access

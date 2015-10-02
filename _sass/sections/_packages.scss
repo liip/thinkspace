@@ -8,8 +8,9 @@
 
   background:
   linear-gradient(
-    rgba($alt-brand-color, .5),
-    rgba($alt-brand-color, .5)
+    rgba($alt-brand-color, 0.1),
+    rgba($alt-brand-color, 0.8) 80%,
+    rgba($alt-brand-color, 1.0)
   ),
   url('/assets/images/background-packages.jpg');
   background-size: cover;
@@ -20,7 +21,7 @@
     color: $lighten;
   }
 
-  .packages-item {
+  .package {
     min-height: 281px;
 
     position: relative;
@@ -28,7 +29,7 @@
     background-color: $lighten;
   }
 
-  .packages-item__title {
+  .package__title {
     font-weight: bold;
 
     text-transform: uppercase;
@@ -36,7 +37,7 @@
     color: $brand-color;
   }
 
-  .packages-item__container-price {
+  .package__container-price {
     width: 100%;
 
     position: absolute;
@@ -46,8 +47,24 @@
     background-color: $brand-color;
   }
 
-    .packages-item__price {
+    .package__price {
       font-size: $font-size-medium;
 
       color: $lighten;
+    }
+
+  .benefit {
+    display: flex;
+  }
+
+    .benefit > i, .benefit__name {
+      display: inline-block;
+    }
+
+    .benefits__title, .benefit__name {
+      color: $lighten;
+
+      font-weight: bold;
+
+      text-transform: uppercase;
     }
