@@ -5,4 +5,7 @@
 
 .member__logo {
   width: 80%;
+
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
 }

@@ -1,0 +1,18 @@
+/**
+ * Base
+ * PACKAGES
+ */
+
+textarea {
+  height: 165px;
+
+  resize: none;
+}
+
+.button-send {
+  width: 100%;
+
+  color: $brand-color;
+
+  border: solid $brand-color 2px;
+}
