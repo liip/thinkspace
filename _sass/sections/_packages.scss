@@ -1,0 +1,53 @@
+/**
+ * Base
+ * PACKAGES
+ */
+
+.packages {
+  position: relative;
+
+  background:
+  linear-gradient(
+    rgba($alt-brand-color, .5),
+    rgba($alt-brand-color, .5)
+  ),
+  url('/assets/images/background-packages.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+  .packages__title {
+    color: $lighten;
+  }
+
+  .packages-item {
+    min-height: 281px;
+
+    position: relative;
+
+    background-color: $lighten;
+  }
+
+  .packages-item__title {
+    font-weight: bold;
+
+    text-transform: uppercase;
+
+    color: $brand-color;
+  }
+
+  .packages-item__container-price {
+    width: 100%;
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    background-color: $brand-color;
+  }
+
+    .packages-item__price {
+      font-size: $font-size-medium;
+
+      color: $lighten;
+    }

@@ -5,11 +5,19 @@
 
 body {
   font-family: $font-family-default;
-  font-size: $font-size-default;
 }
 
 .wrapper {
   max-width: 1024px;
 
   margin: 0 auto;
+}
+
+h2 {
+  color: $brand-color;
+
+  font-size: $alt-font-size-small;
+  font-weight: bold;
+
+  text-transform: uppercase;
 }

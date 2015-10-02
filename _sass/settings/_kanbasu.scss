@@ -7,11 +7,14 @@
  */
 
 $brand-color:                       #6ea644 !default;
+$alt-brand-color:                   #c5dfd2 !default;
+$lighten:                           #fff !default;
 $alt-color-lighter:                 #eee !default;
 $alt-color-light:                   #999 !default;
 $alt-color:                         #777 !default;
 $alt-color-dark:                    #555 !default;
 $alt-color-darker:                  #333 !default;
+$darken:                            #000 !default;
 
 
 /**
@@ -22,7 +25,8 @@ $font-family-default:               'EticaBook', Helvetica, Arial, sans-serif !d
 
 $font-size-default:                 16px !default;
 $font-size-small:                   0.75rem !default;
-$font-size-large:                   1.5rem !default;
+$font-size-medium:                  1.5rem !default;
+$font-size-large:                   2.0rem !default;
 $alt-font-size-small:               2.5rem !default;
 $alt-font-size-default:             4rem !default;
 $alt-font-size-large:               6.5rem !default;

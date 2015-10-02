@@ -1,15 +1,23 @@
-<section>
+<section class="packages pdgv">
   <div class="wrapper">
     <header>
-      <h2>{{ t.menu.packages }}</h2>
+      <h2 class="packages__title">{{ t.menu.packages }}</h2>
     </header>
 
-    {% for member in site.data.packages %}
-      <article>
-        <h3>{{ member.name }}</h3>
-        <p>{{ member.description[page.lang] }}</p>
-        <p>{{ member.price }} CHF/{{t.other.month}}</p>
-      </article>
-    {% endfor %}
+    <div class="grid">
+      {% for member in site.data.packages %}
+        <div class="grid__item w-1/3">
+          <div class="packages-item pdg">
+            <h3 class="packages-item__title mrgt0">{{ member.title }}</h3>
+            <p class="packages-item__surface">{{ member.surface }}</p>
+            <p class="packages-item__places">{{ member.places[page.lang] }}</p>
+            <p class="packages-item__furniture mrgb++">{{ member.furniture[page.lang] }}</p>
+            <div class="packages-item__container-price">
+              <p class="packages-item__price mrg0 pdg">{{ member.price }} CHF/{{t.other.month}}</p>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
   </div>
 </section>
