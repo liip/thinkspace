@@ -3,8 +3,13 @@
  * LAYOUT
  */
 
+html {
+ font-size: $font-size-default;
+}
+
 body {
   font-family: $font-family-default;
+  font-size: $font-size-small;
 }
 
 .wrapper {
@@ -16,8 +21,60 @@ body {
 h2 {
   color: $brand-color;
 
-  font-size: $alt-font-size-small;
+  font-size: $font-size-large;
   font-weight: bold;
 
   text-transform: uppercase;
+}
+
+h3 {
+  font-size: $font-size-medium-plus;
+}
+
+@media #{$mq-lg} {
+  body {
+    background-color: red;
+  }
+}
+
+@media #{$mq-md} {
+  html {
+    font-size: 15px;
+  }
+
+  body {
+    background-color: orange;
+  }
+
+  .wrapper {
+    padding: 0 $spacing-unit-default;
+  }
+}
+
+@media #{$mq-sm} {
+  html {
+    font-size: 14px;
+  }
+
+  body {
+    background-color: yellow;
+  }
+
+  .wrapper {
+    padding: 0 $spacing-unit-default;
+  }
+}
+
+@media #{$mq-xs} {
+  html {
+    font-size: 14px;
+  }
+
+  body {
+    background-color: green;
+  }
+
+  .wrapper {
+    padding: 0 $spacing-unit-default;
+  }
 }

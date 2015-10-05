@@ -18,7 +18,7 @@
 
     top: 40%; // override value from Kanbasu for vh-align class
 
-    font-size: $alt-font-size-default;
+    font-size: $tagline-medium;
     font-weight: bold;
 
     color: $alt-color-lighter;
@@ -33,11 +33,11 @@
   }
 
     .headline__title-size--small {
-      font-size: $alt-font-size-small;
+      font-size: $tagline-small;
     }
 
     .headline__title-size--large {
-      font-size: $alt-font-size-large;
+      font-size: $tagline-large;
     }
 
   .headline__footer {
@@ -56,3 +56,13 @@
 
       color: $alt-color-lighter;
     }
+
+@media #{$mq-xs} {
+  .headline__title-size--large {
+    font-size: 4.5rem;
+  }
+
+  .headline__footer__title {
+    
+  }
+}

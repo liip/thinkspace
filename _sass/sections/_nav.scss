@@ -12,7 +12,7 @@ nav {
 
   .logo {
     position: absolute;
-    top: 15px;
+    top: 20px;
     left: 0;
   }
 
@@ -26,6 +26,7 @@ nav {
   .logo {
     color: $brand-color;
 
+    font-size: $font-size-large;
     font-weight: bold;
     font-style: normal;
 
