@@ -5,10 +5,7 @@
 
 .headline {
   height: 92vh;
-
-  position: relative;
-
-  text-align: center;
+  // min-height: 1024px;
 
   background-size: cover;
   background-position: center;
@@ -16,7 +13,10 @@
 }
 
   .headline__title {
+    width: 100%;
     display: inline-block;
+
+    top: 40%; // override value from Kanbasu for vh-align class
 
     font-size: $alt-font-size-default;
     font-weight: bold;
