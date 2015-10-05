@@ -5,41 +5,34 @@
     </header>
   </div>
 
-  <iframe
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2745.4351196083703!2d6.636048551514432!3d46.51929097902516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c2e3455313c2b%3A0x7e2e79e45c5f109c!2sRue+Etraz+4%2C+1003+Lausanne!5e0!3m2!1sen!2sch!4v1443797922143"
-    width="100%"
-    height="300px"
-    frameborder="0"
-    style="border:0"
-    allowfullscreen
-    class="mrgb">
-  </iframe>
+  <div id="map"></div>
 
-  <div class="wrapper">
+  <div class="wrapper mrgt+">
     <form name="contact">
       <div class="gird">
         <div class="grid__item w-1/3 pdgl0">
           <div class="form-group">
-              <label for="first_name" class="field-label">{{ t.form.first_name }}</label>
-              <input type="text" name="first_name" id="first_name" required>
+            <label for="first_name" class="field-label">{{ t.form.first_name }}</label>
+            <input type="text" name="first_name" id="first_name" required>
           </div>
           <div class="form-group">
-              <label for="last_name" class="field-label">{{ t.form.last_name }}</label>
-              <input type="text" name="last_name" id="last_name" required>
+            <label for="last_name" class="field-label">{{ t.form.last_name }}</label>
+            <input type="text" name="last_name" id="last_name" required>
           </div>
           <div class="form-group">
-              <label for="name-corporate" class="field-label">{{ t.form.last_name }}</label>
-              <input type="text" name="last_name" id="last_name" required>
+            <label for="corporate_name" class="field-label">{{ t.form.corporate_name }}</label>
+            <input type="text" name="corporate_name" id="corporate_name" required>
           </div>
         </div><!--
      --><div class="grid__item w-1/3">
-          <div class="form-group">
-              <label for="number-people" class="field-label">{{ t.form.last_name }}</label>
-              <input type="text" name="last_name" id="last_name" required>
+          <div class="form-group range-container">
+            <label for="people_number" class="field-label">{{ t.form.people_number }}</label>
+            <input type="range" min="1" max="6" name="people_number" id="people_number" oninput="outputUpdate(value)" class="mrgt-" required>
+            <output for="fader" class="pdgl" id="label_people_number">4</output>
           </div>
           <div class="form-group">
-              <label for="phone" class="field-label">{{ t.form.last_name }}</label>
-              <input type="text" name="last_name" id="last_name" required>
+            <label for="phone" class="field-label">{{ t.form.phone }}</label>
+            <input type="tel" name="phone" id="phone" required>
           </div>
           <div class="form-group">
               <label for="email" class="field-label">{{ t.form.email }}</label>
@@ -48,11 +41,11 @@
         </div><!--
      --><div class="grid__item w-1/3">
           <div class="form-group">
-              <label for="message" class="field-label">{{ t.form.message }}</label>
-              <textarea id="message" name="message" rows="4" required></textarea>
+            <label for="message" class="field-label">{{ t.form.message }}</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
           </div>
           <div class="form-group">
-              <button type="submit" class="btn button-send">{{ t.form.send }}</button>
+            <button type="submit" class="btn button-send">{{ t.form.send }}</button>
           </div>
         </div>
       </div>

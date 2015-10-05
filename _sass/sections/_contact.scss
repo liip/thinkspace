@@ -9,6 +9,19 @@ textarea {
   resize: none;
 }
 
+#map {
+  width: 100%;
+  height: 300px;
+}
+
+.range-container {
+  height: 80px;
+}
+
+  input[type=range] {
+    width: 85%;
+  }
+
 .button-send {
   width: 100%;
 

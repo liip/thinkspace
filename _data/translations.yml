@@ -13,6 +13,9 @@ en:
   form:
     first_name: First name
     last_name: Last name
+    corporate_name: Corporate name
+    people_number: Number of people
+    phone: Phone
     email: Email
     message: Message
     send: Send
@@ -33,6 +36,9 @@ fr:
   form:
     first_name: Prénom
     last_name: Nom
+    corporate_name: Nom de l'entreprise
+    people_number: Nombre de personne
+    phone: Téléphone
     email: Email
     message: Message
     send: Envoyer
