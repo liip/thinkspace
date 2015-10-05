@@ -24,7 +24,7 @@
 
           {% for page in site.pages %}
             {% if page.lang %}
-              <li class="locale"><a href="{{ page.url | prepend: site.baseurl }}">{{ page.lang }}</a></li>
+              <li class="locale_{{ page.lang }}"><a href="{{ page.url | prepend: site.baseurl }}">{{ page.lang }}</a></li>
             {% endif %}
           {% endfor %}
 
@@ -46,8 +46,9 @@
         var myLatLng = {lat: 46.519276, lng: 6.638259};
 
         var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 15,
+          zoom: 16,
           scrollwheel:  false,
+          disableDefaultUI: true,
           center: myLatLng
         });
 

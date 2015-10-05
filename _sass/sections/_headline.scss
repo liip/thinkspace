@@ -8,12 +8,16 @@
 
   position: relative;
 
+  text-align: center;
+
   background-size: cover;
   background-position: center;
   background-image: url('/assets/images/background-tagline.jpg');
 }
 
   .headline__title {
+    display: inline-block;
+
     font-size: $alt-font-size-default;
     font-weight: bold;
 
@@ -24,7 +28,7 @@
 
       padding: $spacing-unit-tiny;
 
-      background-color: rgba($brand-color, .5);
+      background-color: rgba($brand-color, .8);
     }
   }
 
@@ -43,7 +47,7 @@
     left: 0;
     bottom: 0;
 
-    background-color: rgba($brand-color, .5);
+    background-color: rgba($brand-color, .8);
   }
 
     .headline__footer__title {

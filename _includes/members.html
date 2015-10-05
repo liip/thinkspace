@@ -3,7 +3,7 @@
     <h2>{{ t.menu.members }}</h2>
   </header>
 
-  <div class="grid">
+  <div class="grid mrgt+">
     {% for member in site.data.members %}
       <div class="grid__item w-1/4">
         <a href="{{ member.url }}"><img src="/assets/images/{{ member.logo }}" alt="{{ member.name }}" class="member__logo"></a>
