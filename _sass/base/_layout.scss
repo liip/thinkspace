@@ -31,19 +31,10 @@ h3 {
   font-size: $font-size-medium-plus;
 }
 
-@media #{$mq-lg} {
-  body {
-    background-color: red;
-  }
-}
 
 @media #{$mq-md} {
   html {
     font-size: 15px;
-  }
-
-  body {
-    background-color: orange;
   }
 
   .wrapper {
@@ -56,10 +47,6 @@ h3 {
     font-size: 14px;
   }
 
-  body {
-    background-color: yellow;
-  }
-
   .wrapper {
     padding: 0 $spacing-unit-default;
   }
@@ -68,10 +55,6 @@ h3 {
 @media #{$mq-xs} {
   html {
     font-size: 14px;
-  }
-
-  body {
-    background-color: green;
   }
 
   .wrapper {
