@@ -17,14 +17,14 @@
       <nav class="wrapper">
         <h1 class="logo mrgb0"><span class="thin">Think</span>Space</h1>
         <ul class="list-inline hidden-xs hidden-sm">
-          <li><a href="concept" class="active">{{ t.menu.concept }}</a></li>
-          <li><a href="packages">{{ t.menu.packages }}</a></li>
-          <li><a href="members">{{ t.menu.members }}</a></li>
-          <li><a href="contact">{{ t.menu.contact }}</a></li>
+          <li><a href="concept" class="scrollto">{{ t.menu.concept }}</a></li>
+          <li><a href="packages" class="scrollto">{{ t.menu.packages }}</a></li>
+          <li><a href="members" class="scrollto">{{ t.menu.members }}</a></li>
+          <li><a href="contact" class="scrollto">{{ t.menu.contact }}</a></li>
 
           {% for page in site.pages %}
             {% if page.lang %}
-              <li class="locale_{{ page.lang }}"><a href="{{ page.url | prepend: site.baseurl }}">{{ page.lang }}</a></li>
+              <li class="locale_{{ page.lang }} pdgh--"><a href="{{ page.url | prepend: site.baseurl }}">{{ page.lang }}</a></li>
             {% endif %}
           {% endfor %}
 

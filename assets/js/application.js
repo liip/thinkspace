@@ -1,12 +1,10 @@
 $(function() {
-  var that = this;
-
   // smooth scroll to anchor & active nav
-  $('header li > a').on('click', function(event) {
+  $('header li > a.scrollto').on('click', function(event) {
     event.preventDefault();
     var anchor = $(this);
 
-    $('header li > a').removeClass('active');
+    $('header li > a.scrollto').removeClass('active');
     $(this).addClass('active');
 
     $('html, body').animate({
