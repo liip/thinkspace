@@ -20,6 +20,8 @@ en:
     email: Email
     message: Message
     send: Send
+    error: Your message didn't being send
+    success: Your message has been sent
   other:
     month: Month
 fr:
@@ -44,5 +46,7 @@ fr:
     email: Email
     message: Message
     send: Envoyer
+    error: Votre message n'a pas pu ête envoyé
+    success: Votre message a bien été envoyé
   other:
     month: Mois

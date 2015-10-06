@@ -13,14 +13,14 @@
   </head>
 
   <body>
-    <header class="wrapper">
-      <nav>
+    <header class="fixed-nav">
+      <nav class="wrapper">
         <h1 class="logo mrgb0"><span class="thin">Think</span>Space</h1>
         <ul class="list-inline hidden-xs hidden-sm">
-          <li><a href="#" class="active">{{ t.menu.concept }}</a></li>
-          <li><a href="#">{{ t.menu.packages }}</a></li>
-          <li><a href="#">{{ t.menu.members }}</a></li>
-          <li><a href="#">{{ t.menu.contact }}</a></li>
+          <li><a href="concept" class="active">{{ t.menu.concept }}</a></li>
+          <li><a href="packages">{{ t.menu.packages }}</a></li>
+          <li><a href="members">{{ t.menu.members }}</a></li>
+          <li><a href="contact">{{ t.menu.contact }}</a></li>
 
           {% for page in site.pages %}
             {% if page.lang %}
@@ -37,7 +37,7 @@
     <script src="https://maps.googleapis.com/maps/api/js"></script>
     <script type="text/javascript">
       var APP = {
-        contact_email: 'germain.hugon@liip.ch'
+        contact_email: 'ludovic.turmel@liip.ch'
       };
 
       var marker;
@@ -77,6 +77,6 @@
       google.maps.event.addDomListener(window, 'load', initMap);
     </script>
     <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script src="{{ "/assets/js/contact.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/assets/js/application.js" | prepend: site.baseurl }}"></script>
   </body>
 </html>

@@ -3,6 +3,18 @@
  * NAV
  */
 
+.fixed-nav {
+  width: 100%;
+  height: $spacing-unit-huge;
+
+  position: fixed;
+  top: 0;
+
+  z-index: 2;
+
+  background-color: $lighten;
+}
+
 nav {
   height: $spacing-unit-huge;
 
@@ -12,13 +24,13 @@ nav {
 
   .logo {
     position: absolute;
-    top: 20px;
+    top: 15px;
     left: 0;
   }
 
   ul {
     position: absolute;
-    top: 30px;
+    top: 25px;
     right: 0;
   }
 }
