@@ -49,4 +49,41 @@ $(function() {
       }
     });
   });
+
+    // google map 
+    var marker;
+
+    function initMap() {
+      var myLatLng = {lat: 46.519276, lng: 6.638259};
+
+      var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 16,
+        scrollwheel:  false,
+        disableDefaultUI: true,
+        center: myLatLng
+      });
+
+      marker = new google.maps.Marker({
+        map: map,
+        draggable: false,
+        animation: google.maps.Animation.DROP,
+        position: myLatLng
+      });
+
+      marker.addListener('click', toggleBounce);
+    }
+
+    function toggleBounce() {
+      if (marker.getAnimation() !== null) {
+        marker.setAnimation(null);
+      } else {
+        marker.setAnimation(google.maps.Animation.BOUNCE);
+      }
+    }
+
+    function outputUpdate(vol) {
+    	document.querySelector('#label_people_number').value = vol;
+    }
+
+    google.maps.event.addDomListener(window, 'load', initMap);
 });

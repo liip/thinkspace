@@ -6,7 +6,7 @@
   <div class="grid mrgt+">
     {% for member in site.data.members %}
       <div class="grid__item w-1/2 mrgb+ md-w-1/4 lg-w-1/4">
-        <a href="{{ member.url }}"><img src="{{ "/images/" + member.logo | prepend: site.baseurl }}" alt="{{ member.name }}" class="member__logo"></a>
+        <a href="{{ member.url }}"><img src="{{ "/assets/images/"  | prepend: site.baseurl }}{{ member.logo }}" alt="{{ member.name }}" class="member__logo"></a>
       </div>
     {% endfor %}
   </div>
