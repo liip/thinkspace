@@ -16,6 +16,9 @@ $(function() {
   $('form[name="contact"]').on('submit', function(e) {
     e.preventDefault();
 
+    // hide notice message
+    $('.contact__message').hide();
+
     var first_name = $('#first_name').val(),
         last_name = $('#last_name').val(),
         corporate_name = $('#corporate_name').val(),
@@ -50,7 +53,7 @@ $(function() {
     });
   });
 
-    // google map 
+    // google map
     var marker;
 
     function initMap() {

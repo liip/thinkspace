@@ -22,9 +22,15 @@
           <li><a href="members" class="scrollto">{{ t.menu.members }}</a></li>
           <li><a href="contact" class="scrollto">{{ t.menu.contact }}</a></li>
 
-          {% for page in site.pages %}
-            {% if page.lang %}
-              <li class="locale_{{ page.lang }} pdgh--"><a href="{{ page.url | prepend: site.baseurl }}">{{ page.lang }}</a></li>
+          {% for p in site.pages %}
+            {% if p.lang %}
+              {% if page.lang == p.lang %}
+                {% assign active = "active" %}
+              {% else %}
+                {% assign active = "" %}
+              {% endif %}
+
+              <li class="locale_{{ p.lang }} pdgh--"><a href="{{ p.url | prepend: site.baseurl }}" class="{{ active }}">{{ p.lang }}</a></li>
             {% endif %}
           {% endfor %}
 
@@ -37,7 +43,7 @@
     <script src="https://maps.googleapis.com/maps/api/js"></script>
     <script type="text/javascript">
       var APP = {
-        contact_email: 'ludovic.turmel@liip.ch'
+        contact_email: '{{ site.contact_email }}'
       };
     </script>
     <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
