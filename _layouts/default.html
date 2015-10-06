@@ -9,7 +9,7 @@
 
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-    <link rel="stylesheet" href="{{ "/assets/main.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/main.css" | prepend: site.baseurl }}">
   </head>
 
   <body>
@@ -77,6 +77,6 @@
       google.maps.event.addDomListener(window, 'load', initMap);
     </script>
     <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script src="{{ "/assets/js/application.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/application.js" | prepend: site.baseurl }}"></script>
   </body>
 </html>
