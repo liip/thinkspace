@@ -47,9 +47,11 @@ nav {
   }
 
   @media #{$mq-xs} {
-    ul {
+    .hide-xs {
       display: none;
+    }
 
+    ul {
       top: 60px;
       left: 0;
     }
@@ -65,8 +67,8 @@ nav {
     .locale {
       width: 100px;
       position: absolute;
-      right: 0px;
-      top: 0px;
+      right: -10px;
+      top: 32px;
 
       li {
         display: inline;

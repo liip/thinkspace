@@ -12,7 +12,8 @@ $(function() {
     $('.icon-burger').css('background-image', 'url(./assets/images/burger-close.png)');
     $('.icon-burger').removeClass('icon-burger').addClass('icon-close');
     $('header.fixed-nav').animate({ 'height': '290px' }, 1000);
-    $('nav > ul').css('display', 'block').removeClass('list-inline');
+    $('nav > ul').removeClass('list-inline').removeClass('hide-xs');
+    $('.locale ul').removeClass('hide-xs');
   }
 
   // close burger nav
@@ -20,7 +21,7 @@ $(function() {
     $('.icon-close').css('background-image', 'url(./assets/images/burger-open.png)');
     $('.icon-close').removeClass('icon-close').addClass('icon-burger');
     $('header.fixed-nav').animate({ 'height': '77px' }, 1000);
-    $('nav > ul').css({'display': 'none'});
+    $('nav > ul, .locale > ul').addClass('hide-xs');
   }
 
   // smooth scroll to anchor & active nav
