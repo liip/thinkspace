@@ -5,7 +5,7 @@
 
 .headline {
   height: 92vh;
-  min-height: 627px; // minimum height for mobile 
+  min-height: 627px; // minimum height for mobile
 
   background-size: cover;
   background-position: center;
@@ -15,8 +15,6 @@
   .headline__title {
     width: 100%;
     display: inline-block;
-
-    top: 40%; // override value from Kanbasu for vh-align class
 
     font-size: $tagline-medium;
     font-weight: bold;
@@ -30,6 +28,15 @@
 
       background-color: rgba($brand-color, .8);
     }
+  }
+
+  .align-h {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
   }
 
     .headline__title-size--small {
