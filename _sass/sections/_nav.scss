@@ -10,7 +10,7 @@
   position: fixed;
   top: 0;
 
-  z-index: 2;
+  z-index: 1;
 
   background-color: $lighten;
 }
@@ -28,10 +28,56 @@ nav {
     left: 0;
   }
 
+  @media #{$mq-sm} {
+    .logo {
+      top: 20px;
+    }
+  }
+
+  @media #{$mq-xs} {
+    .logo {
+      top: 21px;
+    }
+  }
+
   ul {
     position: absolute;
-    top: 25px;
+    top: 30px;
     right: 0;
+  }
+
+  @media #{$mq-xs} {
+    ul {
+      display: none;
+
+      top: 60px;
+      left: 0;
+    }
+
+      li {
+        margin: 20px 0px;
+      }
+
+      a {
+        font-size: 18px;
+      }
+
+    .locale {
+      width: 100px;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+
+      li {
+        display: inline;
+
+        margin: 0 6px;
+      }
+    }
+
+    .locale_en {
+      margin-left: 0;
+    }
   }
 }
 
@@ -63,4 +109,30 @@ nav {
 
   .locale_en {
     margin-left: 30px;
+  }
+
+  // increase padding to fit nav item on ipad view
+  @media #{$mq-sm} {
+    .list-inline > li {
+      padding: 0 5px;
+    }
+
+    .locale_en {
+      margin-left: 0px;
+    }
+  }
+
+  .icon {
+    display: block;
+
+    width: 30px;
+    height: 30px;
+
+    position: absolute;
+    top: 20px;
+    right: 0px;
+  }
+
+  .icon-burger {
+    background-image: url($baseUrl + '/assets/images/burger-open.png');
   }

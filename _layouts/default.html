@@ -16,25 +16,28 @@
     <header class="fixed-nav">
       <nav class="wrapper">
         <h1 class="logo mrgb0"><span class="thin">Think</span>Space</h1>
-        <ul class="list-inline hidden-xs hidden-sm">
+        <ul class="list-inline">
           <li><a href="concept" class="scrollto">{{ t.menu.concept }}</a></li>
           <li><a href="packages" class="scrollto">{{ t.menu.packages }}</a></li>
           <li><a href="members" class="scrollto">{{ t.menu.members }}</a></li>
           <li><a href="contact" class="scrollto">{{ t.menu.contact }}</a></li>
 
-          {% for p in site.pages %}
-            {% if p.lang %}
-              {% if page.lang == p.lang %}
-                {% assign active = "active" %}
-              {% else %}
-                {% assign active = "" %}
+          <div class="locale">
+            {% for p in site.pages %}
+              {% if p.lang %}
+                {% if page.lang == p.lang %}
+                  {% assign active = "active" %}
+                {% else %}
+                  {% assign active = "" %}
+                {% endif %}
+                  <li class="locale_{{ p.lang }} pdgh--"><a href="{{ p.url | prepend: site.baseurl }}" class="{{ active }}">{{ p.lang }}</a></li>
               {% endif %}
-
-              <li class="locale_{{ p.lang }} pdgh--"><a href="{{ p.url | prepend: site.baseurl }}" class="{{ active }}">{{ p.lang }}</a></li>
-            {% endif %}
-          {% endfor %}
+            {% endfor %}
+          </div>
 
         </ul>
+
+        <i class="icon icon-burger hidden-sm hidden-md hidden-lg pull-right"></i>
       </nav>
     </header>
 

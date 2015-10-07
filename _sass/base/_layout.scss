@@ -4,12 +4,8 @@
  */
 
 html {
- font-size: $font-size-default;
-}
-
-body {
+  font-size: $font-size-default;
   font-family: $font-family-default;
-  font-size: $font-size-small;
 }
 
 .wrapper {
@@ -40,24 +36,36 @@ h3 {
   .wrapper {
     padding: 0 $spacing-unit-default;
   }
+
+  .fixed-nav {
+    padding: 0 $spacing-unit-default;
+  }
 }
 
 @media #{$mq-sm} {
   html {
-    font-size: 14px;
+    font-size: 13px;
   }
 
   .wrapper {
+    padding: 0 $spacing-unit-default;
+  }
+
+  .fixed-nav {
     padding: 0 $spacing-unit-default;
   }
 }
 
 @media #{$mq-xs} {
   html {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .wrapper {
+    padding: 0 $spacing-unit-default;
+  }
+
+  .fixed-nav {
     padding: 0 $spacing-unit-default;
   }
 }

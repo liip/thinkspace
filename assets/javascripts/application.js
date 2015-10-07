@@ -1,15 +1,41 @@
 $(function() {
+  // open burger nav
+  $('nav .icon').on('click', function() {
+    if ($(this).hasClass('icon-burger')) {
+      burgerNavOpen();
+    } else {
+      burgerNavClose();
+    }
+  });
+
+  burgerNavOpen= function() {
+    $('.icon-burger').css('background-image', 'url(./assets/images/burger-close.png)');
+    $('.icon-burger').removeClass('icon-burger').addClass('icon-close');
+    $('header.fixed-nav').animate({ 'height': '290px' }, 1000);
+    $('nav > ul').css('display', 'block').removeClass('list-inline');
+  }
+
+  // close burger nav
+  burgerNavClose = function() {
+    $('.icon-close').css('background-image', 'url(./assets/images/burger-open.png)');
+    $('.icon-close').removeClass('icon-close').addClass('icon-burger');
+    $('header.fixed-nav').animate({ 'height': '77px' }, 1000);
+    $('nav > ul').css({'display': 'none'});
+  }
+
   // smooth scroll to anchor & active nav
   $('header li > a.scrollto').on('click', function(event) {
     event.preventDefault();
     var anchor = $(this);
+
+    burgerNavClose();
 
     $('header li > a.scrollto').removeClass('active');
     $(this).addClass('active');
 
     $('html, body').animate({
       scrollTop: $('.' + anchor.attr('href')).offset().top - 75
-    }, 1500);
+    }, 2000);
   });
 
   // sending form thourght formspree
