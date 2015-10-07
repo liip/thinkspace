@@ -84,9 +84,10 @@ $(function() {
       }
     }
 
-    function outputUpdate(vol) {
-    	document.querySelector('#label_people_number').value = vol;
-    }
-
     google.maps.event.addDomListener(window, 'load', initMap);
 });
+
+// update range slider form
+function outputUpdate(vol) {
+  document.querySelector('#label_people_number').value = vol;
+}
