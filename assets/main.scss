@@ -12,14 +12,14 @@ $baseUrl: "{{ site.baseurl }}";
   "kanbasu";
 
 @import
+  "base/_layout",
+  "base/_fonts";
+
+@import
   "sections/_headline",
   "sections/_nav",
   "sections/_packages",
   "sections/_members",
   "sections/_contact";
-
-@import
-  "base/_layout",
-  "base/_fonts";
 
 @import "sprites/_icones-benefits";
