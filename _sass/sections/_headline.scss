@@ -65,11 +65,11 @@
     }
 
 @media #{$mq-xs} {
-  .headline__title-size--large {
-    font-size: 4.5rem;
+  .headline {
+    background-image: url($baseUrl + '/assets/images/xs-background.jpg');
   }
 
-  .headline__footer__title {
-
+  .headline__title-size--large {
+    font-size: 4.5rem;
   }
 }

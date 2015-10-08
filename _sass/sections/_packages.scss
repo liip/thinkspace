@@ -68,3 +68,17 @@
 
       text-transform: uppercase;
     }
+
+@media #{$mq-xs} {
+  .packages {
+    background:
+    linear-gradient(
+      rgba($alt-brand-color, 0.1),
+      rgba($alt-brand-color, 0.8) 80%,
+      rgba($alt-brand-color, 1.0)
+    ),
+    url($baseUrl + '/assets/images/xs-background-packages.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+}
