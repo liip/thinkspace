@@ -1,6 +1,6 @@
 # Site settings
 title: ThinkSpace
-baseurl: "/thinkspace" # the subpath of your site, e.g. /ThinkSpace
+baseurl: "" # the subpath of your site, e.g. /ThinkSpace
 url: "http://thinkspace.ch" # the base hostname & protocol for your site
 contact_email: "ludovic.turmel@liip.ch"
 phone: +41 21 533 13 00
