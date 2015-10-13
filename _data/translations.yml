@@ -7,7 +7,7 @@ en:
     contact: Contact us
   headline:
     line: <span class="headline__title-size--default">Work on your dreams</span><br /> <span class="headline__title-size--small mrgb-">with other</span><br /> <span class="headline__title-size--large">dreamers</span>
-    footer: location d'espace pour starups et PME actives dans le domaine du digital
+    footer: location d'espaces pour starups et PME actives dans le domaine du digital
   concept: Nous proposons aux startup ainsi qu’aux Pme  de venir s’installer dans des conditions de travail confortables et accueillantes. Notre but est également de promouvoir leurs entrées dans le monde florissant du web. Il s’agit donc de faire partie d’une communauté dans un lieu de vie professionnel, dynamique et ergonomique où il fait bon se rencontrer et partager ses experiences. Permettant aussi de se concentrer sur son activité de manière optimale. Notre challenge sera donc de servir de lieu intermédiaire, tremplin dans le processus de développement de start-up ou PME déjà croissantes.
   benefits:
     title: Members benefits
@@ -27,7 +27,7 @@ fr:
     concept: Concept
     packages: Nos propositions
     map: Office plan
-    members: Membres
+    members: Ils sont déjà membres
     contact: Contactez-nous
   headline:
     line: <span class="headline__title-size--default">Work on your dreams</span><br /> <span class="headline__title-size--small mrgb-">with other</span><br /> <span class="headline__title-size--large">dreamers</span>
