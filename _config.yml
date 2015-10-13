@@ -1,6 +1,8 @@
 # Site settings
 title: ThinkSpace
-baseurl: "" # the subpath of your site, e.g. /ThinkSpace
+# the subpath baseurl must be to be publish & working in production under thinkspace.ch
+# if you want to preview the website under liip.github.io/thinkspace, you have to change baseurl to /thinkspace
+baseurl: ""
 url: "http://thinkspace.ch" # the base hostname & protocol for your site
 contact_email: "ludovic.turmel@liip.ch"
 phone: +41 21 533 13 00
