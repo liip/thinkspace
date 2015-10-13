@@ -4,7 +4,7 @@ title: ThinkSpace
 # if you want to preview the website under liip.github.io/thinkspace, you have to change baseurl to /thinkspace
 baseurl: ""
 url: "http://thinkspace.ch" # the base hostname & protocol for your site
-contact_email: "ludovic.turmel@liip.ch"
+contact_email: "thinkspace@liip.ch"
 phone: +41 21 533 13 00
 email: "hello@thinkspace.ch"
 twitter_username: liip
