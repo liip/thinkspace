@@ -12,10 +12,8 @@ en:
   benefits:
     title: Members benefits
   form:
-    first_name: First name
-    last_name: Last name
+    name: Name
     corporate_name: Corporate name
-    people_number: Number of people
     phone: Phone
     email: Email
     message: Message
@@ -38,10 +36,8 @@ fr:
   benefits:
     title: Members benefits
   form:
-    first_name: Prénom
-    last_name: Nom
+    name: Nom
     corporate_name: Nom de l'entreprise
-    people_number: Nombre de personne
     phone: Téléphone
     email: Email
     message: Message

@@ -25,7 +25,7 @@ $(function() {
   }
 
   // smooth scroll to anchor & active nav
-  $('header li > a.scrollto').on('click', function(event) {
+  $('header li > a.scrollto, .packages--contact').on('click', function(event) {
     event.preventDefault();
     var anchor = $(this);
 
@@ -46,10 +46,8 @@ $(function() {
     // hide notice message
     $('.contact__message').hide();
 
-    var first_name = $('#first_name').val(),
-        last_name = $('#last_name').val(),
+    var name = $('#name').val(),
         corporate_name = $('#corporate_name').val(),
-        label_people_number = $('#label_people_number').val(),
         email = $('#email').val(),
         phone = $('#phone').val(),
         message = $('#message').val();
@@ -58,10 +56,8 @@ $(function() {
         url: "//formspree.io/" + APP.contact_email,
         method: "POST",
         data: {
-          first_name: first_name,
-          last_name: last_name,
+          name: name,
           corporate_name: corporate_name,
-          label_people_number: label_people_number,
           phone: phone,
           email: email,
           message: message

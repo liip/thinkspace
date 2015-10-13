@@ -17,6 +17,12 @@
   background-position: center;
 }
 
+.packages:hover {
+  p {
+    font-weight: normal;
+  }
+}
+
   .packages__title {
     color: $lighten;
   }

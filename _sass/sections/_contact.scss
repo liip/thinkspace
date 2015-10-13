@@ -31,7 +31,6 @@ address {
 
   a {
     color: $text-color;
-    text-decoration: underline;
   }
 
   a:hover {
@@ -55,14 +54,14 @@ address {
 }
 
 textarea {
-  height: 165px;
+  height: 135px;
 
   resize: none;
 }
 
 #map {
   width: 100%;
-  height: 400px;
+  height: 250px;
 }
 
 .range-container {

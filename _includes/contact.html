@@ -29,12 +29,8 @@
       <div class="grid">
         <div class="grid__item sm-w-1/2 lg-w-1/3">
           <div class="form-group">
-            <label for="first_name" class="field-label">{{ t.form.first_name }}</label>
-            <input type="text" name="first_name" id="first_name" required>
-          </div>
-          <div class="form-group">
-            <label for="last_name" class="field-label">{{ t.form.last_name }}</label>
-            <input type="text" name="last_name" id="last_name" required>
+            <label for="name" class="field-label">{{ t.form.name }}</label>
+            <input type="text" name="name" id="name" required>
           </div>
           <div class="form-group">
             <label for="corporate_name" class="field-label">{{ t.form.corporate_name }}</label>
@@ -42,11 +38,6 @@
           </div>
         </div>
         <div class="grid__item sm-w-1/2 lg-w-1/3 xs-mrgt">
-          <div class="form-group range-container">
-            <label for="people_number" class="field-label">{{ t.form.people_number }}</label>
-            <input type="range" min="1" max="6" name="people_number" id="people_number" oninput="outputUpdate(value)" class="mrgt-" required>
-            <output for="fader" class="pdgl" id="label_people_number">4</output>
-          </div>
           <div class="form-group">
             <label for="phone" class="field-label">{{ t.form.phone }}</label>
             <input type="tel" name="phone" id="phone" required>
@@ -61,7 +52,7 @@
             <label for="message" class="field-label">{{ t.form.message }}</label>
             <textarea id="message" name="message" rows="4" required></textarea>
           </div>
-          <div class="form-group">
+          <div class="form-group mrgt+">
             <button type="submit" class="btn button-send">{{ t.form.send }}</button>
           </div>
         </div>
