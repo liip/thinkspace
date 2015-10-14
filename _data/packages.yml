@@ -1,23 +1,23 @@
 - title: Nest
-  surface: 16m2
+  surface: 16m²
   places:
     en: 4 slots
     fr: 4 places
   furniture:
-    en: furniture include
+    en: furniture included
     fr: mobilier compris
   price: 1500
 - title: Jump
-  surface: 20m2
+  surface: 20m²
   places:
     en: 6 slots
     fr: 6 places
   furniture:
-    en: furniture include
+    en: furniture included
     fr: mobilier compris
   price: 2000
 - title: Take off
-  surface: 26m2
+  surface: 26m²
   places:
     en: 6 slots
     fr: 6 places
