@@ -64,7 +64,7 @@ $(function() {
         },
         dataType: "json"
     }).done(function(response) {
-      if (response.success === "email sent" ) {
+      if (response.success === "confirmation email sent" ) {
         // on success
         $('.contact__message.success').show();
 

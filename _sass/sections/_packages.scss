@@ -17,12 +17,6 @@
   background-position: center;
 }
 
-.packages:hover {
-  p {
-    font-weight: normal;
-  }
-}
-
   .packages__title {
     color: $lighten;
   }
@@ -33,6 +27,12 @@
     position: relative;
 
     background-color: $lighten;
+  }
+
+  .package:hover {
+    p {
+      font-weight: normal;
+    }
   }
 
   .package__title {
