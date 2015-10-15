@@ -2,13 +2,13 @@ en:
   menu:
     concept: Concept
     packages: Packages
-    map: Office map
+    map: Access
     members: Current members
     contact: Contact us
   headline:
     line: <span class="headline__title-size--default">Work on your dreams</span><br /> <span class="headline__title-size--small mrgb-">with other</span><br /> <span class="headline__title-size--large">dreamers</span>
-    footer: space renting for start-ups and SME working in the digital world
-  concept: At ThinkSpace, we believe that comfortable and welcoming work conditions are key when it comes to the development of start-ups and SME. In order to promote your entry into the flourishing world of the web, we provide you with the possibility to become part of a community gathered in a dynamic and ergonomic living space. At ThinkSpace, you will be able to meet new people and share experiences all the while focusing on your activity in an optimal way. Our challenge will be to serve as a stepping stone, a launching pad in the development process of start-ups or already growing SME.
+    footer: Office spaces for start-ups and SMEs active in the digital world
+  concept: At ThinkSpace, we believe that comfortable and welcoming work conditions are key when it comes to the development of start-ups and SME. We provide you with the possibility to become part of a community gathered in a dynamic and ergonomic living space. You will be able to meet new people and share experiences while focusing on your activity in an optimal way.
   benefits:
     title: Members benefits
   form:
@@ -21,7 +21,7 @@ en:
     error: Your message could not be sent
     success: Your message has been sent
   other:
-    month: Month
+    month: month
 fr:
   menu:
     concept: Concept
@@ -31,12 +31,12 @@ fr:
     contact: Contactez-nous
   headline:
     line: <span class="headline__title-size--default">Work on your dreams</span><br /> <span class="headline__title-size--small mrgb-">with other</span><br /> <span class="headline__title-size--large">dreamers</span>
-    footer: location d'espaces pour start-ups et PME actives dans le domaine du digital
-  concept: Nous proposons aux start-ups ainsi qu’aux PME de venir s’installer dans des conditions de travail confortables et accueillantes. Notre but est également de promouvoir leur entrée dans le monde florissant du web. Il s’agit donc de faire partie d’une communauté dans un lieu de vie professionnel, dynamique et ergonomique où il fait bon se rencontrer et partager ses expériences, tout en permettant de se concentrer sur son activité de manière optimale. Notre challenge sera donc de servir de lieu intermédiaire, tremplin dans le processus de développement de start-ups ou PME déjà croissantes.
+    footer: Espaces pour start-ups et PME actives dans le domaine du digital
+  concept: Nous proposons aux start-ups et PME de venir s’installer dans des locaux accueillants en plein coeur de Lausanne. La communauté du ThinkSpace vous permet de travailler dans un lieu de vie professionnel, dynamique et ergonomique où il fait bon se rencontrer et partager ses expériences, tout en se concentrant sur son activité de manière optimale.
   benefits:
-    title: Les avantages
+    title: Avantages des membres
   form:
-    name: Nom
+    name: Prénom et nom
     corporate_name: Nom de l'entreprise
     phone: Téléphone
     email: Email
@@ -45,4 +45,4 @@ fr:
     error: Votre message n'a pas pu ête envoyé
     success: Votre message a bien été envoyé
   other:
-    month: Mois
+    month: mois
