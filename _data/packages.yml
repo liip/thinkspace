@@ -1,27 +1,27 @@
 - title: Nest
   surface: 16 m²
   places:
-    en: 4 slots
+    en: 4 seats
     fr: 4 places
   furniture:
-    en: Furniture included
-    fr: Mobilier compris
+    en: In open space, furniture included
+    fr: En open space, mobilier compris
   price: 1500
 - title: Jump
   surface: 20 m²
   places:
-    en: 6 slots
+    en: 6 seats
     fr: 6 places
   furniture:
-    en: Furniture included
-    fr: Mobilier compris
+    en: In open space, furniture included
+    fr: En open space, mobilier compris
   price: 2000
 - title: Take off
   surface: 26 m²
   places:
-    en: 6 slots
-    fr: 6 places
+    en: 6 to 8 seats
+    fr: 6 to 8 places
   furniture:
-    en:
-    fr:
+    en: Private space, to furnish
+    fr: Privatif, à meubler
   price: 2300
