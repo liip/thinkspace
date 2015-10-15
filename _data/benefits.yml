@@ -7,28 +7,28 @@
     fr: Interactions
   slug: interactions
 - name:
-    en: Meeting room
-    fr: Salle de conférence
+    en: Meeting rooms
+    fr: Salles de conférence
   slug: meeting-room
 - name:
     en: 3 months cancellation
-    fr: Résiliation 3 mois
+    fr: Résiliation à 3 mois
   slug: cancellation
 - name:
-    en: Coffee place
-    fr: Cafétéria
+    en: Free coffee
+    fr: Café gratuit
   slug: coffee
 - name:
     en: Chill zone
-    fr: Espace détente
+    fr: Espace détente†
   slug: chill
 - name:
-    en: Wi-Fi
-    fr: Wi-Fi
+    en: WIFI
+    fr: wifi
   slug: wifi
 - name:
-    en: Copy machine
-    fr: Photocopieuse
+    en: Printer
+    fr: Imprimante
   slug: copy
 - name:
     en: Access 24/7
