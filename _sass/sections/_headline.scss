@@ -50,6 +50,8 @@
   .headline-footer {
     width: 100%;
 
+    text-align: center;
+
     position: absolute;
     left: 0;
     bottom: 0;
@@ -70,6 +72,10 @@
   }
 
   .headline__title-size--large {
-    font-size: 4.5rem;
+    font-size: 4rem;
+  }
+
+  .headline__title-size--default {
+    font-size: 3rem;
   }
 }

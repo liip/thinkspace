@@ -33,8 +33,8 @@ $font-size-medium-plus:             2.0rem !default;
 $font-size-large:                   2.5rem !default;
 
 $tagline-small:                     2.5rem !default;
-$tagline-medium:                    4rem !default;
-$tagline-large:                     6.5rem !default;
+$tagline-medium:                    4.0rem !default;
+$tagline-large:                     6.0rem !default;
 
 $line-height-default:               1.45 !default;
 
@@ -59,9 +59,9 @@ $spacing-unit-huge:                 floor($spacing-unit-default * ($ratio*2)) !d
  * Responsiveness
  */
 
-$screen-xs-max:                     640px !default;
+$screen-xs-max:                     750px !default;
 $screen-sm-min:                     $screen-xs-max + 1px !default;
-$screen-sm-max:                     768px !default;
+$screen-sm-max:                     790px !default;
 $screen-md-min:                     $screen-sm-max + 1px !default;
 $screen-md-max:                     1024px !default;
 $screen-lg-min:                     $screen-md-max + 1px !default;
