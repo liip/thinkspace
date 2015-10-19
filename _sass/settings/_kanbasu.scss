@@ -59,9 +59,9 @@ $spacing-unit-huge:                 floor($spacing-unit-default * ($ratio*2)) !d
  * Responsiveness
  */
 
-$screen-xs-max:                     750px !default;
+$screen-xs-max:                     740px !default;
 $screen-sm-min:                     $screen-xs-max + 1px !default;
-$screen-sm-max:                     790px !default;
+$screen-sm-max:                     868px !default;
 $screen-md-min:                     $screen-sm-max + 1px !default;
 $screen-md-max:                     1024px !default;
 $screen-lg-min:                     $screen-md-max + 1px !default;
