@@ -8,11 +8,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <meta name="description" content="{{ t.concept }}">
     <meta property="og:title" content="{{ page.title }}" />
     <meta property="og:type" content="website" />
+    <meta property="og:description" content="{{ t.concept }}">
     <meta property="og:url" content="http://thinkspace.ch" />
     <meta property="og:image" content="http://thinkspace.ch/assets/images/og-thinkspace-1.png" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:creator" content="@liip" />
     <link rel="stylesheet" href="{{ "/assets/main.css" | prepend: site.baseurl }}">
   </head>
 
