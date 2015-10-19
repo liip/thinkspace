@@ -1,4 +1,9 @@
-# Installation
+# Contribute
+
+This a Jekyll website. **Please note that every commit in the 'gh-pages' branch will rebuild the whole website!**
+
+# Development
+## Installation
 
 ```
 bundle install
