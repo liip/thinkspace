@@ -67,11 +67,13 @@ $(function() {
       if (response.success === "confirmation email sent" ) {
         // on success
         $('.contact__message.success').show();
+        $('form[name="contact"]').fadeOut(500);
 
         return;
       } else {
         // on error
         $('.contact__message.error').show();
+        $(document).scrollTop( $(".contact__message").offset().top - 100);
       }
     });
   });
