@@ -39,6 +39,15 @@ $(function() {
     }, 2000);
   });
 
+  // smooth scroll to top on click logo
+  $('h1.logo').on('click', function(event) {
+    event.preventDefault();
+
+    $('html, body').animate({
+      scrollTop: $('.headline').offset().top - 77
+    }, 2000);
+  });
+
   // sending form thourght formspree
   $('form[name="contact"]').on('submit', function(e) {
     e.preventDefault();
