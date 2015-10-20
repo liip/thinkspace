@@ -12,8 +12,8 @@ en:
   benefits:
     title: Members benefits
   form:
-    name: Firstname and lastname
-    corporate_name: Corporate name
+    name: Firstname and Lastname
+    corporate_name: Company Name
     phone: Phone
     email: Email
     message: Message
