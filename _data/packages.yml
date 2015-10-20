@@ -1,4 +1,4 @@
-- title: Nest
+- title: The Nest
   surface: 16 m²
   places:
     en: 4 seats
@@ -7,7 +7,7 @@
     en: In open space, furniture included
     fr: En open space, mobilier compris
   price: 1500
-- title: Jump
+- title: The Hive
   surface: 20 m²
   places:
     en: 6 seats
@@ -16,7 +16,7 @@
     en: In open space, furniture included
     fr: En open space, mobilier compris
   price: 2000
-- title: Take off
+- title: The Den
   surface: 26 m²
   places:
     en: 6 to 8 seats
