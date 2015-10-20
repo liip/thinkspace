@@ -30,6 +30,10 @@ nav {
     left: 0;
   }
 
+  .nav__pdgr {
+    padding-right: 120px;
+  }
+
   @media #{$mq-sm} {
     .logo {
       top: 20px;
