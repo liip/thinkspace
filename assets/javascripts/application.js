@@ -24,17 +24,20 @@ $(function() {
   $(document).on('click', 'a[href^="#"]', function(e) {
     e.preventDefault();
 
-    var hash = $(e.currentTarget).attr('href'),
+    var $target = $(e.currentTarget),
+        hash = $target.attr('href'),
         $container = $(hash);
 
-    toggleNav();
+    if ($target.closest('.main-nav').length) {
+      toggleNav();
+    }
 
     if (animation) {
       animation.stop();
     }
 
     animation = $('html, body').animate({
-      scrollTop: $container.offset().top - 75
+      scrollTop: $container.offset().top - 74
     }, 1000);
   });
 
