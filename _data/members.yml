@@ -1,12 +1,18 @@
 - name: Liip
   url: http://www.liip.ch
-  logo: liip.png
+  logo: liip.svg
 - name: TawiPay
   url: http://www.tawipay.com
-  logo: tawipay.png
+  logo: tawipay.svg
 - name: Mondays.ch
   url: http://www.mondays.ch
-  logo: monday.png
+  logo: mondays.svg
 - name: Skioo
   url: http://www.skioo.com
-  logo: skioo.png
+  logo: skioo.svg
+- name: Supertext
+  url: https://www.supertext.ch
+  logo: supertext.svg
+- name: QoQa
+  url: https://www.qoqa.ch
+  logo: qoqa.svg

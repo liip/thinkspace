@@ -1,56 +1,57 @@
-.benefit__wifi, .benefit__city-center, .benefit__interactions, .benefit__meeting-room, .benefit__chill, .benefit__cancellation, .benefit__coffee, .benefit__copy, .benefit__access{
+.benefit__icon {
+  display: inline-block;
 	background: url("images/icones-benefits.png") no-repeat;
 }
 
-.benefit__wifi{
+.benefit__icon--wifi{
 	background-position: -6px 0;
 	width: 31px;
 	height: 40px;
 }
 
-.benefit__city-center{
+.benefit__icon--city-center{
 	background-position: -8px -55px;
 	width: 29px;
 	height: 42px;
 }
 
-.benefit__interactions{
+.benefit__icon--interactions{
 	background-position: 0 -116px ;
 	width: 45px;
 	height: 42px;
 }
 
-.benefit__meeting-room{
+.benefit__icon--meeting-room{
 	background-position: -61px -4px ;
 	width: 37px;
 	height: 41px;
 }
 
-.benefit__chill{
+.benefit__icon--chill{
 	background-position: -56px -59px ;
 	width: 37px;
 	height: 33px;
 }
 
-.benefit__cancellation{
+.benefit__icon--cancellation{
 	background-position: -55px -111px ;
 	width: 29px;
 	height: 40px;
 }
 
-.benefit__coffee{
+.benefit__icon--coffee{
 	background-position: -4px -169px ;
 	width: 41px;
 	height: 44px;
 }
 
-.benefit__copy{
+.benefit__icon--copy{
 	background-position: -51px -160px ;
 	width: 39px;
 	height: 44px;
 }
 
-.benefit__access{
+.benefit__icon--access{
 	background-position: 0px -222px;
 	width: 39px;
 	height: 44px;

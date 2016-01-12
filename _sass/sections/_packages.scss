@@ -6,44 +6,58 @@
 .packages {
   position: relative;
 
-  background:
-  linear-gradient(
-    rgba($alt-brand-color, 0.1),
-    rgba($alt-brand-color, 0.8) 80%,
-    rgba($alt-brand-color, 1.0)
-  ),
-  url($baseUrl + '/assets/images/background-packages.jpg');
+  background-image:
+    linear-gradient(
+      rgba($alt-brand-color, 0.1),
+      rgba(darken($alt-brand-color,10%), 1.0)
+    ),
+    url($baseUrl + '/assets/images/background-packages.jpg');
   background-size: cover;
   background-position: center;
+
+  @media #{$mq-xs} {
+    background-image:
+      linear-gradient(
+        rgba($alt-brand-color, 0.1),
+        rgba(darken($alt-brand-color,10%), 1.0)
+      ),
+      url($baseUrl + '/assets/images/xs-background-packages.jpg');
+    background-size: cover;
+    background-position: center;
+  }
 }
 
   .packages__title {
     color: $lighten;
   }
 
-  .package {
-    min-height: 281px;
+.package {
+  display: block;
 
-    position: relative;
+  position: relative;
 
-    background-color: $lighten;
+  background-color: $lighten;
+
+  &:hover,
+  &:focus {
+    color: inherit;
   }
+}
 
-  .package:hover {
-    p {
-      font-weight: normal;
-    }
-  }
+.package--disabled {
+  pointer-events: none;
 
-  .packages--contact.active {
-    font-weight: normal;
+  .package__title {
+    color: $alt-color-light;
   }
+  .package__container-price {
+    background-color: $alt-color-light;
+  }
+}
 
   .package__title {
     font-weight: bold;
-
     text-transform: uppercase;
-
     color: $brand-color;
   }
 
@@ -59,36 +73,12 @@
 
     .package__price {
       font-size: $font-size-medium;
-
       color: $lighten;
     }
 
-  .benefit {
-    display: flex;
+  .benefits__title,
+  .benefit__name {
+    color: $lighten;
+    font-weight: bold;
+    text-transform: uppercase;
   }
-
-    .benefit > i, .benefit__name {
-      display: inline-block;
-    }
-
-    .benefits__title, .benefit__name {
-      color: $lighten;
-
-      font-weight: bold;
-
-      text-transform: uppercase;
-    }
-
-@media #{$mq-xs} {
-  .packages {
-    background:
-    linear-gradient(
-      rgba($alt-brand-color, 0.1),
-      rgba($alt-brand-color, 0.8) 80%,
-      rgba($alt-brand-color, 1.0)
-    ),
-    url($baseUrl + '/assets/images/xs-background-packages.jpg');
-    background-size: cover;
-    background-position: center;
-  }
-}

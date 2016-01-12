@@ -5,140 +5,96 @@
 
 .fixed-nav {
   width: 100%;
-  height: $spacing-unit-huge;
+  padding-top: $spacing-unit-small;
+  padding-bottom: $spacing-unit-small;
 
   position: fixed;
   top: 0;
-
   z-index: 1;
 
   background-color: $lighten;
-
   box-shadow: 0 1px 3px rgba(0,0,0,.15);
 }
 
-nav {
-  height: $spacing-unit-huge;
-
-  padding: $spacing-unit-default 0;
-
-  position: relative;
-
-  .logo {
-    position: absolute;
-    top: 27px;
-    left: 0;
-
-    cursor: pointer;
+@media (max-width: $screen-sm-max) {
+  .fixed-nav__collapse {
+    display: none;
   }
 
-  .nav__pdgr {
-    padding-right: 120px;
-  }
+  .main-nav {
+    margin-top: $spacing-unit-default;
+    margin-bottom: $spacing-unit-default;
 
-  @media #{$mq-sm} {
-    .logo {
-      top: 20px;
+    text-align: center;
+    font-size: rem(20px);
+
+    > li {
+      padding-top: $spacing-unit-tiny;
+      padding-bottom: $spacing-unit-tiny;
     }
   }
 
-  @media #{$mq-xs} {
-    .logo {
-      top: 29px;
+  .locales-list {
+    margin-bottom: $spacing-unit-default;
+    text-align: center;
+  }
+}
+
+@media (min-width: $screen-md-min) {
+  .fixed-nav .wrapper {
+    display: table;
+    width: 100%;
+  }
+
+  .toggle-nav-btn {
+    display: none;
+  }
+
+  .fixed-nav__main,
+  .fixed-nav__collapse {
+    // Ensure it’s shown, even after hiding on mobile
+    display: table-cell !important;
+    vertical-align: middle;
+  }
+
+  .fixed-nav__collapse {
+    text-align: right;
+  }
+
+  .main-nav {
+    display: inline-block;
+
+    > li {
+      display: inline-block;
+      padding-left: $spacing-unit-tiny;
+      padding-right: $spacing-unit-tiny;
+      line-height: 2;
     }
   }
 
-  ul {
-    position: absolute;
-    top: 30px;
-    right: 0;
-  }
+  .locales-list {
+    display: inline-block;
+    margin-left: $spacing-unit-default;
+    float: right;
 
-  @media #{$mq-sm} {
-    .logo {
-      top: 28px;
-    }
-  }
-
-  @media #{$mq-xs} {
-    .hide-xs {
-      display: none;
-    }
-
-    ul {
-      top: 60px;
-      left: 0;
-    }
-
-      li {
-        margin: 20px 0px;
-      }
-
-      a {
-        font-size: 18px;
-      }
-
-    .locale {
-      width: 100px;
-      position: absolute;
-      right: -10px;
-      top: 32px;
-
-      li {
-        display: inline;
-
-        margin: 0 6px;
-      }
-    }
-
-    .locale_en {
-      margin-left: 0;
+    > li {
+      line-height: 2;
     }
   }
 }
 
-  .logo {
-    color: $brand-color;
+.icon {
+  display: block;
 
-    font-size: $font-size-large;
-    font-weight: bold;
-    font-style: normal;
+  width: 29px;
+  height: 29px;
 
-    .thin {
-      font-weight: normal;
-    }
-  }
+  background-repeat: no-repeat;
+}
 
-  .locale_fr, .locale_en {
-    text-transform: uppercase;
-  }
-
-  .locale_en {
-    margin-left: 30px;
-  }
-
-  // increase padding to fit nav item on ipad view
-  @media #{$mq-sm} {
-    .list-inline > li {
-      padding: 0 5px;
-    }
-
-    .locale_en {
-      margin-left: 0px;
-    }
-  }
-
-  .icon {
-    display: block;
-
-    width: 30px;
-    height: 29px;
-
-    position: absolute;
-    top: 20px;
-    right: 0px;
-  }
-
-  .icon-burger {
-    background-image: url($baseUrl + '/assets/images/burger-open.png');
-  }
+.icon-burger {
+  background-image: url($baseUrl + '/assets/images/burger.svg');
+}
+.icon-close {
+  background-image: url($baseUrl + '/assets/images/close.svg');
+}

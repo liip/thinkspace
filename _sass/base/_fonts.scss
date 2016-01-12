@@ -4,28 +4,23 @@
  */
 
 @font-face {
-  font-family: 'EticaBold';
-  src: url('fonts/LFT_Etica_bold_Liip.eot');
-  src: url('fonts/LFT_Etica_bold_Liip.otf') format("opentype"),
-       url('fonts/LFT_Etica_bold_Liip.woff') format('woff'),
-       url('fonts/LFT_Etica_bold_Liip.ttf')  format('truetype'),
-       url('fonts/LiipEticaBd.svg') format('svg');
-}
-
-@font-face {
-  font-family: 'EticaBook';
-  src: url('fonts/LFT_Etica_Book_Liip.eot');
-  src: url('fonts/LFT_Etica_Book_Liip.otf') format("opentype"),
-       url('fonts/LFT_Etica_Book_Liip.woff') format('woff'),
-       url('fonts/LFT_Etica_Book_Liip.ttf')  format('truetype'),
-       url('fonts/LiipEticaBk.svg') format('svg');
-}
-
-@font-face {
-  font-family: 'EticaSemiBold';
+  font-family: 'Etica';
   src: url('fonts/LFT_Etica_Semibold_Liip.eot');
-  src: url('fonts/LFT_Etica_Semibold_Liip.otf') format("opentype"),
+  src: url('fonts/LFT_Etica_Semibold_Liip.eot?#iefix') format('embedded-opentype'),
+       url('fonts/LFT_Etica_Semibold_Liip.otf') format('opentype'),
        url('fonts/LFT_Etica_Semibold_Liip.woff') format('woff'),
-       url('fonts/LFT_Etica_Semibold_Liip.ttf')  format('truetype'),
-       url('fonts/LiipEticaSB.svg') format('svg');
+       url('fonts/LFT_Etica_Semibold_Liip.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Etica';
+  src: url('fonts/LFT_Etica_Book_Liip.eot');
+  src: url('fonts/LFT_Etica_Book_Liip.eot?#iefix') format('embedded-opentype'),
+       url('fonts/LFT_Etica_Book_Liip.otf') format('opentype'),
+       url('fonts/LFT_Etica_Book_Liip.woff') format('woff'),
+       url('fonts/LFT_Etica_Book_Liip.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }

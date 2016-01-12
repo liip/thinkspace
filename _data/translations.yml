@@ -6,7 +6,7 @@ en:
     members: Current members
     contact: Contact us
   headline:
-    line: <span class="headline__title-size--default">Grow your business</span><br /> <span class="headline__title-size--small mrgb-">among</span><br /> <span class="headline__title-size--large">extraordinary</span><br /><span class="headline__title-size--default mrgt">entrepreneurs</span>
+    line: <span class="headline__title-size--default">Grow your business</span><br /><span class="headline__title-size--small">among</span><br /><span class="headline__title-size--large">extraordinary</span><br /><span class="headline__title-size--default">entrepreneurs</span>
     footer: Office spaces for start-ups and SMEs active in the digital world
   concept: At ThinkSpace, we believe that comfortable and welcoming work conditions are key when it comes to the development of start-ups and SMEs. We provide you with the opportunity to become part of a community gathered in a dynamic and ergonomic living space. You will be able to meet new people and share experiences while focusing on your activity in an optimal way.
   benefits:
@@ -22,6 +22,7 @@ en:
     success: Your message has been sent
   other:
     month: month
+  unavailable: Unavailable
 fr:
   menu:
     concept: Concept
@@ -30,7 +31,7 @@ fr:
     members: Membres actuels
     contact: Contactez-nous
   headline:
-    line: <span class="headline__title-size--default">Grow your business</span><br /> <span class="headline__title-size--small mrgb-">among</span><br /> <span class="headline__title-size--large">extraordinary</span><br /><span class="headline__title-size--default mrgt">entrepreneurs</span>
+    line: <span class="headline__title-size--default">Grow your business</span><br /><span class="headline__title-size--small">among</span><br /><span class="headline__title-size--large">extraordinary</span><br /><span class="headline__title-size--default">entrepreneurs</span>
     footer: Espaces pour start-ups et PME actives dans le domaine du digital
   concept: Nous proposons aux start-ups et PME de venir s’installer dans des locaux accueillants en plein cœur de Lausanne. La communauté du ThinkSpace vous permet de travailler dans un lieu de vie professionnel, dynamique et ergonomique où il fait bon se rencontrer et partager ses expériences, tout en se concentrant sur son activité de manière optimale.
   benefits:
@@ -46,3 +47,4 @@ fr:
     success: Votre message a bien été envoyé
   other:
     month: mois
+  unavailable: Indisponible

@@ -8,18 +8,9 @@
 }
 
 .contact__title-wrapper {
-  width: 100%;
-  height: $spacing-unit-huge;
-
-  position: absolute;
-  top: 0;
-  left: 0;
-
+  padding-top: $spacing-unit-default;
+  padding-bottom: $spacing-unit-default;
   background-color: rgba($alt-brand-color, 0.8);
-
-  h2 {
-    color: $lighten;
-  }
 }
 
 address {
@@ -30,11 +21,11 @@ address {
   }
 }
 
-.success, .error {
+.success,
+.error {
   display: none;
 
   font-size: $font-size-small-plus;
-  font-style: italic;
 }
 
 .success {
@@ -54,20 +45,4 @@ textarea {
 #map {
   width: 100%;
   height: 250px;
-}
-
-.range-container {
-  height: 80px;
-}
-
-  input[type=range] {
-    width: 85%;
-  }
-
-.button-send {
-  width: 100%;
-
-  color: $brand-color;
-
-  border: solid $brand-color 2px;
 }

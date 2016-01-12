@@ -1,0 +1,13 @@
+/**
+ * Base
+ * SHAME
+ */
+
+// Missing Kanbasu vendor-prefixes
+// Unable to add Autoprefixer on Github Pages…
+
+.vh-align {
+  -webkit-transform: translate(-50%, -50%);
+     -moz-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+}

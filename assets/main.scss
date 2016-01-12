@@ -8,18 +8,23 @@ $baseUrl: "{{ site.baseurl }}";
 
 // settings kanbasu
 @import
-  "settings/_kanbasu",
+  "settings/kanbasu",
   "kanbasu";
 
 @import
-  "base/_layout",
-  "base/_fonts";
+  "base/fonts",
+  "base/typography",
+  "base/layout",
+  "base/shame";
 
 @import
-  "sections/_headline",
-  "sections/_nav",
-  "sections/_packages",
-  "sections/_members",
-  "sections/_contact";
+  "components/btn";
 
-@import "sprites/_icones-benefits";
+@import
+  "sections/headline",
+  "sections/nav",
+  "sections/packages",
+  "sections/members",
+  "sections/contact";
+
+@import "sprites/icones-benefits";

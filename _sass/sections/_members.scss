@@ -4,13 +4,14 @@
  */
 
 .member__logo {
-  width: 80%;
-
   -ms-filter: grayscale(1);
   -webkit-filter: grayscale(1);
   filter: grayscale(1);
-}
 
-  .Liip, .Skioo {
-    width: 60%;
+  &:hover,
+  &:focus {
+    -ms-filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
   }
+}

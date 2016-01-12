@@ -1,0 +1,43 @@
+/**
+ * Base
+ * TYPOGRAPHY
+ */
+
+h2 {
+  font-size: $font-size-large;
+  font-weight: bold;
+  color: $brand-color;
+  text-transform: uppercase;
+  line-height: 1;
+
+  @media (max-width: $screen-xs-max) {
+    font-size: $font-size-medium-plus;
+  }
+}
+
+h3 {
+  font-size: $font-size-medium-plus;
+  font-weight: bold;
+  line-height: 1;
+
+  @media (max-width: $screen-xs-max) {
+    font-size: $font-size-medium;
+  }
+}
+
+a {
+  text-decoration: none;
+
+  &:hover,
+  &:active {
+    color: $brand-color;
+  }
+
+  &.active {
+    font-weight: bold;
+  }
+}
+
+.text-lead {
+  font-size: rem(22px);
+}

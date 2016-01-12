@@ -1,5 +1,4 @@
 {% assign t = site.data.translations[page.lang] %}
-
 <!DOCTYPE html>
 <html lang="{{ page.lang }}">
   <head>
@@ -22,39 +21,40 @@
 
   <body>
     <header class="fixed-nav">
-      <nav class="wrapper">
-        <h1 class="logo mrgb0">
-          <span class="thin">Think</span>Space <br />
-          <span class="logo__powered"><span class="color-alt">POWERED BY </span>L//P</span>
-        </h1>
-        <ul class="list-inline hide-xs nav__pdgr">
-          <li><a href="concept" class="scrollto">{{ t.menu.concept }}</a></li>
-          <li><a href="packages" class="scrollto">{{ t.menu.packages }}</a></li>
-          <li><a href="members" class="scrollto">{{ t.menu.members }}</a></li>
-          <li><a href="contact" class="scrollto">{{ t.menu.contact }}</a></li>
-        </ul>
-
-        <div class="locale">
-          <ul class="list-inline hide-xs">
-          {% for p in site.pages %}
-            {% if p.lang %}
-              {% if page.lang == p.lang %}
-                {% assign active = "active" %}
-              {% else %}
-                {% assign active = "" %}
-              {% endif %}
-                <li class="locale_{{ p.lang }} pdgh--"><a href="{{ p.url | prepend: site.baseurl }}" class="{{ active }}">{{ p.lang }}</a></li>
-            {% endif %}
-          {% endfor %}
-          </ul>
+      <div class="wrapper">
+        <div class="fixed-nav__main clearfix">
+          <a href="/" class="pull-left"><img src="{{ "/assets/images/"  | prepend: site.baseurl }}logo.svg" alt="ThinkSpace by Liip" class="logo"></a>
+          <button id="toggleNav" class="toggle-nav-btn btn pull-right"><i class="icon icon-burger"></i></button>
         </div>
 
-        <i class="icon icon-burger hidden-sm hidden-md hidden-lg pull-right"></i>
-      </nav>
+        <div class="fixed-nav__collapse">
+          <ul class="main-nav list">
+            <li><a href="#concept" class="scrollto">{{ t.menu.concept }}</a></li>
+            <li><a href="#packages" class="scrollto">{{ t.menu.packages }}</a></li>
+            <li><a href="#members" class="scrollto">{{ t.menu.members }}</a></li>
+            <li><a href="#contact" class="scrollto">{{ t.menu.contact }}</a></li>
+          </ul>
+
+          <ul class="locales-list list-inline text-uppercase">
+            {% for p in site.pages %}
+              {% if p.lang %}
+                {% if page.lang == p.lang %}
+                  {% assign active = "active" %}
+                {% else %}
+                  {% assign active = "" %}
+                {% endif %}
+                  <li class="locale_{{ p.lang }} pdgh--"><a href="{{ p.url | prepend: site.baseurl }}" class="{{ active }}">{{ p.lang }}</a></li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
     </header>
 
     {{ content }}
 
+    <script src="{{ "/assets/javascripts/viewport-units-buggyfill.js" | prepend: site.baseurl }}"></script>
+    <script>window.viewportUnitsBuggyfill.init();</script>
     <script src="https://maps.googleapis.com/maps/api/js"></script>
     <script type="text/javascript">
       var APP = {
@@ -71,7 +71,6 @@
 
       ga('create', 'UA-68300745-1', 'auto');
       ga('send', 'pageview');
-
     </script>
   </body>
 </html>
