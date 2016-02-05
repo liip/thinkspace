@@ -4,7 +4,7 @@
   "description": "``` gem install jekyll npm install jekyll serve ```",
   "main": "index.html",
   "dependencies": {
-    "kanbasu": "^1.0.2"
+    "kanbasu": "^1.2.2"
   },
   "devDependencies": {},
   "scripts": {
