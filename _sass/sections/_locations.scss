@@ -1,0 +1,51 @@
+/**
+ * Section
+ * LOCATION
+ */
+
+.location {
+  position: relative;
+
+  border-top: 2px solid $alt-color-lighter;
+  background-color: #F7F7F7;
+}
+
+.location__title {
+  padding: $spacing-unit-small $spacing-unit-default;
+
+  position: absolute;
+  top: $spacing-unit-default;
+  left: $spacing-unit-default;
+  z-index: 1;
+
+  color: white;
+
+  background-color: rgba($brand-color, .8);
+
+  .location--lausanne & {
+    left: auto;
+    right: $spacing-unit-default;
+  }
+}
+
+.map {
+  &::before {
+    content: '';
+    display: block;
+    width: 25%;
+    height: 100%;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+
+    background-image: linear-gradient(to right, #F7F7F7, transparentize(#F7F7F7,1));
+
+    .location--bern & {
+      right: 0;
+
+      background-image: linear-gradient(to left, #F7F7F7, transparentize(#F7F7F7,1));
+    }
+  }
+}

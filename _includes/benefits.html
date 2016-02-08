@@ -1,0 +1,22 @@
+<section id="benefits" class="benefits">
+  <div class="wrapper">
+    <header>
+      <h2 class="benefits__title mrgt0">{{ t.benefits.title }}</h2>
+    </header>
+
+    <div class="grid">
+      {% for benefit in site.data.benefits %}
+        <div class="grid__item sm-w-1/2 lg-w-1/3">
+          <div class="benefit mosaic">
+            <div class="mosaic__cell w-1/6">
+              <i class="benefit__icon benefit__icon--{{ benefit.slug }}"></i>
+            </div>
+            <div class="mosaic__cell">
+              <p class="benefit__name">{{ benefit.name[page.lang] }}</p>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

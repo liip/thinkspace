@@ -6,8 +6,9 @@
   furniture:
     en: In open space, furniture included
     fr: En open space, mobilier compris
-  price: 1500
-  disabled: true
+  price:
+    # lausanne: 1’500
+    bern: 1’500
 - title: The Hive
   surface: 20 m²
   places:
@@ -16,7 +17,8 @@
   furniture:
     en: In open space, furniture included
     fr: En open space, mobilier compris
-  price: 2000
+  price:
+    lausanne: 2’000
 - title: The Den
   surface: 26 m²
   places:
@@ -25,4 +27,6 @@
   furniture:
     en: Private space, to furnish
     fr: Privatif, à meubler
-  price: 2300
+  price:
+    lausanne: 2’300
+    bern: 2’300

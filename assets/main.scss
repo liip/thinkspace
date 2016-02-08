@@ -18,13 +18,15 @@ $baseUrl: "{{ site.baseurl }}";
   "base/shame";
 
 @import
-  "components/btn";
+  "components/btn",
+  "components/package";
 
 @import
   "sections/headline",
   "sections/nav",
-  "sections/packages",
+  "sections/benefits",
   "sections/members",
-  "sections/contact";
+  "sections/contact",
+  "sections/locations";
 
 @import "sprites/icones-benefits";

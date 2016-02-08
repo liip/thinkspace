@@ -22,7 +22,6 @@ en:
     success: Your message has been sent
   other:
     month: month
-  unavailable: Unavailable
 fr:
   menu:
     concept: Concept
@@ -47,4 +46,3 @@ fr:
     success: Votre message a bien été envoyé
   other:
     month: mois
-  unavailable: Indisponible

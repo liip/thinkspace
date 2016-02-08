@@ -10,7 +10,7 @@
 .contact__title-wrapper {
   padding-top: $spacing-unit-default;
   padding-bottom: $spacing-unit-default;
-  background-color: rgba($alt-brand-color, 0.8);
+  background-color: $alt-brand-color;
 }
 
 address {
@@ -37,12 +37,7 @@ address {
 }
 
 textarea {
-  height: 135px;
+  height: 139px;
 
   resize: none;
-}
-
-#map {
-  width: 100%;
-  height: 250px;
 }

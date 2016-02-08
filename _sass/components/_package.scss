@@ -1,0 +1,41 @@
+/**
+ * Component
+ * PACKAGE
+ */
+
+.package {
+  display: block;
+  overflow: hidden;
+
+  position: relative;
+
+  background-color: white;
+  border: 2px solid $alt-color-light;
+  border-radius: $border-radius-default;
+
+  &:hover,
+  &:focus {
+    color: inherit;
+  }
+}
+
+  .package__title {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: $alt-color-dark;
+  }
+
+  .package__price {
+    padding: $spacing-unit-small $spacing-unit-default;
+    margin: 0 -#{$spacing-unit-default} -#{$spacing-unit-default};
+
+    font-size: $font-size-medium;
+
+    background-color: $alt-color-lighter;
+  }
+
+  .benefit__name {
+    color: $lighten;
+    font-weight: bold;
+    text-transform: uppercase;
+  }

@@ -1,0 +1,35 @@
+/**
+ * Base
+ * BENEFITS
+ */
+
+.benefits {
+  position: relative;
+  padding: $spacing-unit-huge 0 400px;
+
+  background-image:
+    linear-gradient(
+      to top,
+      rgba($alt-brand-color, 0.1),
+      rgba(darken($alt-brand-color,10%), 1.0) 125%
+    ),
+    url($baseUrl + '/assets/images/background-packages.jpg');
+  background-size: cover;
+  background-position: center;
+
+  @media #{$mq-xs} {
+    background-image:
+      linear-gradient(
+        to top,
+        rgba($alt-brand-color, 0.1),
+        rgba(darken($alt-brand-color,10%), 1.0) 125%
+      ),
+      url($baseUrl + '/assets/images/xs-background-packages.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+  .benefits__title {
+    color: white;
+  }

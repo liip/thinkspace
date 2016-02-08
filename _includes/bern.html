@@ -1,0 +1,25 @@
+<section id="bern" class="location location--bern">
+  <div class="mosaic mosaic--responsive mosaic--fixed">
+    <div class="mosaic__cell map" data-lat="46.9483965" data-lng="7.4471000"></div>
+    <div class="mosaic__cell box pdgh+ pdgv++">
+      <h2 class="location__title">Bern</h2>
+      <div class="grid grid--large grid--center">
+        {% for package in site.data.packages %}
+          {% if package.price.bern %}
+            <div class="grid__item mrgb lg-w-1/2">
+              <a href="#contact" class="packages--contact package pdg">
+                <h3 class="package__title mrgt0">{{ package.title }}</h3>
+                <p class="mrgb0">{{ package.surface }}</p>
+                <p class="mrgb0">{{ package.places[page.lang] }}</p>
+                <p>{{ package.furniture[page.lang] }}</p>
+                <div class="package__price">
+                  CHF {{ package.price.bern }} / {{t.other.month}}
+                </div>
+              </a>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>

@@ -5,4 +5,13 @@
 
 .btn--primary {
   border: 2px solid $brand-color;
+
+  font-weight: bold;
+  text-transform: uppercase;
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: white;
+  }
 }
