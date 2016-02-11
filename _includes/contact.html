@@ -1,21 +1,39 @@
-<section id="contact" class="contact box box--default pdgb++ xs-pdgb">
-  <div class="wrapper mrgt+">
+<section id="contact" class="contact box box--default pdgh0 pdgb++ xs-pdgb+">
+  <div class="wrapper">
     <header>
       <h2>{{ t.menu.contact }}</h2>
     </header>
 
     <address class="mrgb">
-      <span class="logo"><span class="thin">Think</span>Space</span><br />
       <div class="grid">
-        <div class="grid__item w-1/2 sm-w-1/4 lg-w-1/6">
-          <a href="https://www.google.ch/maps/place/Rue+Etraz+4,+1003+Lausanne/data=!4m2!3m1!1s0x478c2e3455313c2b:0x7e2e79e45c5f109c?sa=X&ved=0CBwQ8gEwAGoVChMIkbjXk6-yyAIVy24UCh1vgQKW" target="_blank">
-            Rue Etraz 4<br />
-            CH-1003 Lausanne<br />
-          </a>
+        <div class="grid__item md-w-1/2 lg-w-1/3">
+          <h4>Lausanne</h4>
+          <div class="grid">
+            <div class="grid__item w-1/2">
+              <a href="https://goo.gl/maps/veoEcZdXabP2" target="_blank">
+                Rue Etraz 4<br />
+                CH-1003 Lausanne<br />
+              </a>
+            </div>
+            <div class="grid__item w-1/2">
+              <a href="mailto:{{ site.email }}">{{ site.email }}</a><br />
+              <a href="tel:+41215331300">{{ site.phone }}</a>
+            </div>
+          </div>
         </div>
-        <div class="grid__item w-1/2 sm-w-1/4 lg-w-1/6">
-          <a href="mailto:{{ site.email }}">{{ site.email }}</a><br />
-          <a href="tel:+41215331300">{{ site.phone }}</a>
+        <div class="grid__item md-w-1/2 lg-w-1/3">
+          <h4>Bern</h4>
+          <div class="grid">
+            <div class="grid__item w-1/2">
+              <a href="https://goo.gl/maps/2VeSNzDgMNG2" target="_blank">
+                Schmiedenplatz 5<br />
+                CH-3011 Bern<br />
+              </a>
+            </div>
+            <div class="grid__item w-1/2">
+              <a href="mailto:{{ site.email }}">{{ site.email }}</a><br />
+            </div>
+          </div>
         </div>
       </div>
     </address>

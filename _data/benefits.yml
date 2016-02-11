@@ -1,36 +1,45 @@
 - name:
     en: City center
     fr: Centre-ville
+    de: Innenstadt
   slug: city-center
 - name:
     en: Interactions
     fr: Interactions
+    de: Austausch
   slug: interactions
 - name:
     en: Meeting rooms
     fr: Salles de conférence
+    de: Sitzungszimmer
   slug: meeting-room
 - name:
     en: 3 months cancellation
     fr: Résiliation à 3 mois
+    de: 3 Monate Kündigungsfrist
   slug: cancellation
 - name:
     en: Free coffee
     fr: Café gratuit
+    de: Kaffee gratis
   slug: coffee
 - name:
     en: Chill zone
     fr: Espace détente
+    de: Arena & Chill-Out-Zone
   slug: chill
 - name:
     en: WIFI
     fr: wifi
+    de: WLAN
   slug: wifi
 - name:
     en: Printer
     fr: Imprimante
+    de: Drucker
   slug: copy
 - name:
     en: Access 24/7
     fr: Accès 24/7
+    de: Zugang 24/7
   slug: access

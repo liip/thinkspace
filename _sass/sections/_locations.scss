@@ -10,42 +10,73 @@
   background-color: #F7F7F7;
 }
 
-.location__title {
-  padding: $spacing-unit-small $spacing-unit-default;
+  .location__title {
+    padding: $spacing-unit-tiny $spacing-unit-small;
 
-  position: absolute;
-  top: $spacing-unit-default;
-  left: $spacing-unit-default;
-  z-index: 1;
+    position: absolute;
+    top: $spacing-unit-default;
+    left: $spacing-unit-default;
+    z-index: 1;
 
-  color: white;
+    color: white;
 
-  background-color: rgba($brand-color, .8);
+    background-color: rgba($brand-color, .8);
 
-  .location--lausanne & {
-    left: auto;
-    right: $spacing-unit-default;
+    @media (min-width: $screen-md-min) {
+      padding: $spacing-unit-small $spacing-unit-default;
+
+      .location--lausanne & {
+        left: auto;
+        right: $spacing-unit-default;
+      }
+    }
   }
-}
 
-.map {
+.map--location {
   &::before {
     content: '';
     display: block;
-    width: 25%;
-    height: 100%;
+    width: 100%;
+    height: 35%;
 
     position: absolute;
-    top: 0;
+    left: 0;
     bottom: 0;
     z-index: 1;
 
-    background-image: linear-gradient(to right, #F7F7F7, transparentize(#F7F7F7,1));
+    background-image: linear-gradient(to top, #F7F7F7, transparentize(#F7F7F7,1));
+  }
+}
 
-    .location--bern & {
-      right: 0;
+@media (max-width: $screen-sm-max) {
+  .map--location {
+    height: 300px;
+  }
+}
 
-      background-image: linear-gradient(to left, #F7F7F7, transparentize(#F7F7F7,1));
+@media (min-width: $screen-md-min) {
+  .map--location {
+    &::before {
+      width: 25%;
+      height: 100%;
+
+      top: 0;
+      background-image: linear-gradient(to right, #F7F7F7, transparentize(#F7F7F7,1));
+
+      .location--bern & {
+        left: auto;
+        right: 0;
+
+        transform: rotate(180deg);
+      }
+    }
+  }
+
+  .location--lausanne .mosaic {
+    direction: rtl;
+
+    .mosaic__cell {
+      display: ltr;
     }
   }
 }

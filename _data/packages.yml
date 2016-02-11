@@ -3,9 +3,11 @@
   places:
     en: 4 seats
     fr: 4 places assises
+    de: 4 Sitzplätze
   furniture:
     en: In open space, furniture included
     fr: En open space, mobilier compris
+    de: Grossraum-Büro, Mobiliar inklusive
   price:
     # lausanne: 1’500
     bern: 1’500
@@ -14,9 +16,11 @@
   places:
     en: 6 seats
     fr: 6 places assises
+    de: 6 Sitzplätze
   furniture:
     en: In open space, furniture included
     fr: En open space, mobilier compris
+    de: Grossraum-Büro, Mobiliar inklusive
   price:
     lausanne: 2’000
 - title: The Den
@@ -24,9 +28,11 @@
   places:
     en: 6 to 8 seats
     fr: 6 à 8 places assises
+    de: 6 Sitzplätze
   furniture:
     en: Private space, to furnish
     fr: Privatif, à meubler
+    de: Eigener Raum und Möblierung
   price:
     lausanne: 2’300
     bern: 2’300

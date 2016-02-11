@@ -86,15 +86,7 @@ $(function() {
   var marker;
 
   function initMaps() {
-    var maps = document.querySelectorAll('.map'),
-        pointer = {
-          path: 'M10.817 26.445c-.425-.255-10.117-6.882-10.117-15.294-.085-5.778 4.676-10.451 10.457-10.451 5.781 0 10.542 4.673 10.542 10.451 0 8.412-9.692 15.039-10.117 15.294l-.425.255-.34-.255z',
-          fillColor: '#45B153'
-        },
-        pointerDot = {
-          path: 'M4.699 11.2c0-3.63 2.955-6.5 6.5-6.5 3.63 0 6.5 2.955 6.5 6.5 0 3.63-2.87 6.5-6.5 6.5s-6.5-2.955-6.5-6.5z',
-          fillColor: '#ffffff'
-        };
+    var maps = document.querySelectorAll('.map');
 
     for (var i=0; i<maps.length; i++) {
       var el = maps[i],
@@ -113,7 +105,6 @@ $(function() {
 
       el.marker = new google.maps.Marker({
         map: el.map,
-        icons: [pointer, pointerDot],
         draggable: false,
         animation: google.maps.Animation.DROP,
         position: pos

@@ -1,10 +1,10 @@
 en:
   menu:
     concept: Concept
-    packages: Packages
+    benefits: Benefits
     map: Access
-    members: Current members
-    contact: Contact us
+    members: Members
+    contact: Contact
   headline:
     line: <span class="headline__title-size--default">Grow your business</span><br /><span class="headline__title-size--small">among</span><br /><span class="headline__title-size--large">extraordinary</span><br /><span class="headline__title-size--default">entrepreneurs</span>
     footer: Office spaces for start-ups and SMEs active in the digital world
@@ -25,10 +25,10 @@ en:
 fr:
   menu:
     concept: Concept
-    packages: Nos propositions
+    benefits: Avantages
     map: Plan
-    members: Membres actuels
-    contact: Contactez-nous
+    members: Membres
+    contact: Contact
   headline:
     line: <span class="headline__title-size--default">Grow your business</span><br /><span class="headline__title-size--small">among</span><br /><span class="headline__title-size--large">extraordinary</span><br /><span class="headline__title-size--default">entrepreneurs</span>
     footer: Espaces pour start-ups et PME actives dans le domaine du digital
@@ -46,3 +46,27 @@ fr:
     success: Votre message a bien été envoyé
   other:
     month: mois
+de:
+  menu:
+    concept: Konzept
+    benefits: Vorteile
+    map: Standort
+    members: Mitglieder
+    contact: Kontakt
+  headline:
+    line: <span class="headline__title-size--default">Inspiriertes Arbeiten</span><br /><span class="headline__title-size--small">unter</span><br /><span class="headline__title-size--large">digitalen</span><br /><span class="headline__title-size--default">Visionären</span>
+    footer: Attraktive Büroplätze für Startups und KMU’s
+  concept: Attraktive, ergonomische Arbeitsplätze sind ein Schlüsselfaktor für das Wachstum erfolgreicher Startups und KMUs. Im Thinkspace bieten wir dir die Möglichkeit Mitglied eines digitalen Hubs zu werden. Arbeite fokussiert in einem dynamischen Umfeld. Triff kreative Köpfe und lasse dich vom gemeinsamen Austausch inspirieren.
+  benefits:
+    title: Vorteile
+  form:
+    name: Vor und Nachname
+    corporate_name: Firmenname
+    phone: Telefon
+    email: E-Mail
+    message: Nachricht
+    send: Absenden
+    error: Ihre Nachricht konnte nicht versendet werden.
+    success: Ihre Nachricht wurde erfolgreich abgesendet.
+  other:
+    month: Monat
