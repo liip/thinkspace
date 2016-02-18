@@ -1,8 +1,8 @@
 - name: Liip
-  url: http://www.liip.ch
+  url: https://www.liip.ch
   logo: liip.svg
 - name: TawiPay
-  url: http://www.tawipay.com
+  url: https://www.tawipay.com
   logo: tawipay.svg
 - name: Mondays.ch
   url: http://www.mondays.ch
@@ -13,3 +13,6 @@
 - name: Supertext
   url: https://www.supertext.ch
   logo: supertext.svg
+- name: Zip
+  url: http://www.zip.ch
+  logo: zip.svg
