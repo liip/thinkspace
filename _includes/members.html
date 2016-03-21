@@ -3,10 +3,28 @@
     <h2 class="mrgt0">{{ t.menu.members }}</h2>
   </header>
 
-  <div class="grid grid--center grid--huge">
+  <div class="grid grid--center grid--large">
     {% for member in site.data.members %}
-      <div class="grid__item w-1/2 sm-w-1/3 lg-w-1/4 text-center">
+      <div class="grid__item w-1/2 sm-w-1/3 md-w-1/5 text-center">
         <a href="{{ member.url }}" target="_blank"><img src="{{ "/assets/images/"  | prepend: site.baseurl }}{{ member.logo }}" alt="{{ member.name }}" class="member__logo img-block"></a>
+      </div>
+    {% endfor %}
+  </div>
+
+  <h3>{{ t.testimonials.title }}</h3>
+  <div class="grid">
+    {% for testimonial in site.data.testimonials %}
+      <div class="grid__item md-w-1/2 mrgb">
+        <div class="box box--default box--rounded box--tight">
+          <a href="{{ testimonial.url }}" target="_blank"><img src="{{ "/assets/images/testimonials/"  | prepend: site.baseurl }}{{ testimonial.image }}" alt="{{ testimonial.company }}" class="img-block"></a>
+          <div class="box">
+            <h4 class="mrgt0"><a href="{{ testimonial.url }}" target="_blank">{{ testimonial.company }}</a></h4>
+            <blockquote>
+              {{ testimonial[page.lang].text }}
+            </blockquote>
+            <p><cite>— {{ testimonial[page.lang].author }}</cite></p>
+          </div>
+        </div>
       </div>
     {% endfor %}
   </div>

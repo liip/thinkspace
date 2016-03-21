@@ -25,6 +25,11 @@ h3 {
   }
 }
 
+h4 {
+  font-size: rem(24px);
+  font-weight: bold;
+}
+
 a {
   text-decoration: none;
 
@@ -40,4 +45,11 @@ a {
 
 .text-lead {
   font-size: rem(22px);
+}
+
+blockquote {
+  margin: 0;
+
+  text-align: justify;
+  line-height: 1.7;
 }

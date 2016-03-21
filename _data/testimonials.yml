@@ -1,0 +1,24 @@
+- company: Tawipay
+  image: tawipay.jpg
+  url: http://tawipay.com/
+  fr:
+    text: Nous installer au ThinkSpace, au coeur de Lausanne, réduit nos déplacements, mais augmente le temps que nous prenons chaque jour à décider où nous allons manger! C'est surtout l’opportunité permanente d’échanger avec d’autres professionnels du digital, et envisager des perspectives originales et innovantes.
+    author: Pascal Briod, Responsable Produits et co-fondateur
+  en:
+    text: Moving to the Thinkspace in the heart of Lausanne decreased our average commuting time, but increased the time we take to decide where to eat at lunch every day. It is also a never ending possibility to talk to other professionals and come up with new innovative perspectives.
+    author: Pascal Briod, Head of Product & Co-Founder
+  de:
+    text: Indem wir in den Thinkspace im Herzen von Lausanne gezogen sind, sank unsere durchschnittliche Reisezeit wodurch wir mehr Zeit haben jeden Tag zu entscheiden, wo wir zu Mittag essen wollen. Insbesondere können wir uns immer mit anderen Fachpersonen austauschen oder neue, innovative Perspektiven aufzubringen.
+    author: Pascal Briod, Head of Product & Co-Founder
+- company: Skioo
+  image: skioo.jpg
+  url: http://www.skioo.com/
+  fr:
+    text: Le Thinkspace favorise les interactions et le partage entre les coworkers, aucun autre bureau classique en ville ne peut offrir ces avantages! Hormis sa situation centrale, ses bureaux open-space lumineux et entièrement équipés, c’est surtout l’atmosphère stimulante et les synergies qui nous ont convaincus. A quotidien, ca se traduit par des lunchs ou des cafés partagés avec les personnes innovantes et toujours disponibles pour des conseils. Une expérience unique!
+    author: Matthias Thürer, CMO - Chief Marketing Officer
+  en:
+    text: The ThinkSpace fosters interactions and sharing between the coworkers, no other traditional office in town offers such advantages! It is not only its central location with bright and fully furnished open-spaces, but especially this stimulating atmosphere and the possible synergies that convinced us. On a daily basis, this means shared lunches or coffee breaks with innovative people, always ready to give sound advices. A unique experience!
+    author: Matthias Thürer, CMO - Chief Marketing Officer
+  de:
+    text: Der ThinkSpace fördert die Interaktion und der Austausch der Coworkers, das kann kein klassisches Büro in der Stadt bieten! Neben der zentralen Lage und den hellen sowie komplett ausgestatteten Open-Space Büros sind es vor allem die stimulierende Atmosphäre und die Synergien, welche uns überzeugt haben. Regelmässig ergeben sich gemeinsame Lunchs oder Kaffeepausen mit innovativen Menschen, die einem immer mit Rat zur Seite stehen. Eine einzigartige Erfahrung!
+    author: Matthias Thürer, CMO - Chief Marketing Officer

@@ -22,6 +22,8 @@ en:
     success: Your message has been sent
   other:
     month: month
+  testimonials:
+    title: Testimonials
 fr:
   menu:
     concept: Concept
@@ -46,6 +48,8 @@ fr:
     success: Votre message a bien été envoyé
   other:
     month: mois
+  testimonials:
+    title: Témoignages
 de:
   menu:
     concept: Konzept
@@ -70,3 +74,6 @@ de:
     success: Ihre Nachricht wurde erfolgreich abgesendet.
   other:
     month: Monat
+  testimonials:
+    title: Testimonials
+
