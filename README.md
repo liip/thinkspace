@@ -8,7 +8,7 @@ This a Jekyll website. **Please note that every commit in the 'gh-pages' branch 
 ```
 bundle install
 npm install
-jekyll serve
+bundle exec jekyll serve
 ```
 
 See the result on http://127.0.0.1:4000
