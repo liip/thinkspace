@@ -12,3 +12,7 @@ twitter_username: liip
 # Build settings
 markdown: kramdown
 exclude: [node_modules]
+
+# Assets
+sass:
+  style: compressed
