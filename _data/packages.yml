@@ -33,14 +33,14 @@ bern:
       fr: En open space, mobilier compris
       de: Grossraum-Büro, Mobiliar inklusive
     price: 1’500
-  - title: The Den
-    surface: 26 m²
-    places:
-      en: 6 seats
-      fr: 6 places assises
-      de: 6 Sitzplätze
-    furniture:
-      en: Private space, to furnish
-      fr: Privatif, à meubler
-      de: Eigener Raum und Möblierung
-    price: 2’300
+  # - title: The Den
+  #   surface: 26 m²
+  #   places:
+  #     en: 6 seats
+  #     fr: 6 places assises
+  #     de: 6 Sitzplätze
+  #   furniture:
+  #     en: Private space, to furnish
+  #     fr: Privatif, à meubler
+  #     de: Eigener Raum und Möblierung
+  #   price: 2’300
