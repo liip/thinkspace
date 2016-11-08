@@ -2,7 +2,7 @@
   url: https://www.liip.ch
   logo: liip.svg
 - name: Monito
-  url: https://www.monito.com/
+  url: https://www.monito.com
   logo: monito.svg
 - name: Mondays.ch
   url: http://www.mondays.ch
@@ -13,3 +13,6 @@
 - name: Supertext
   url: https://www.supertext.ch
   logo: supertext.svg
+- name: Dimando
+  url: http://www.dimando.com
+  logo: dimando.svg
