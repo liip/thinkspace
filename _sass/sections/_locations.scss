@@ -33,6 +33,8 @@
   }
 
 .map--location {
+  vertical-align: top;
+
   &::before {
     content: '';
     display: block;
