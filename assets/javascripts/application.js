@@ -58,7 +58,7 @@ $(function() {
         message = $('#message').val();
 
     $.ajax({
-      url: '//forsdfgmspree.io/' + APP.contact_email,
+      url: '//formspree.io/' + APP.contact_email,
       method: 'POST',
       data: {
         name: name,
