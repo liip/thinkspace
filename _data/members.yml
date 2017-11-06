@@ -1,8 +1,6 @@
 - name: Liip
   url: https://www.liip.ch
   logo: liip.svg
-- name: Monito
-  url: https://www.monito.com
   logo: monito.svg
 - name: Mondays.ch
   url: http://www.mondays.ch
