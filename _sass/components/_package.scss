@@ -39,3 +39,11 @@
     font-weight: bold;
     text-transform: uppercase;
   }
+
+.packages--full {
+  margin: 30px $spacing-unit-default;
+
+  @media (min-width: $screen-sm-max) {
+    margin: 95px $spacing-unit-default;
+  }
+}

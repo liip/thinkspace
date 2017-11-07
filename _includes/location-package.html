@@ -1,0 +1,21 @@
+{% if package.enable %}
+  {% if package.title == 'full' %}
+    <div class="grid__item md-w-1/1 lg-w-1/2">
+      <div class="packages--full package pdg">
+        <p class="mrgv0">{{ package.message[page.lang] }}</p>
+      </div>
+    </div>
+  {% else %}
+    <div class="grid__item mrgb lg-w-1/2">
+      <a href="#contact" class="packages--contact package pdg">
+        <h3 class="package__title mrgt0">{{ package.title }}</h3>
+        <p class="mrgb0">{{ package.surface }}</p>
+        <p class="mrgb0">{{ package.places[page.lang] }}</p>
+        <p>{{ package.furniture[page.lang] }}</p>
+        <div class="package__price">
+          CHF {{ package.price }} / {{t.other.month}}
+        </div>
+      </a>
+    </div>
+  {% endif %}
+{% endif %}

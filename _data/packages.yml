@@ -59,7 +59,7 @@ bern:
       fr: En open space, mobilier compris
       de: Grossraum-Büro, Mobiliar inklusive
     price: 1’500
-    enable: true
+    enable: false
   - title: The Den
     surface: 26 m²
     places:
@@ -72,3 +72,9 @@ bern:
       de: Eigener Raum und Möblierung
     price: 2’300
     enable: false
+  - title: full
+    message:
+      en: Sorry, we are full at the moment.
+      fr: Désolé, il n'y a pas de place pour le moment.
+      de: Entschuldigung, wir sint fulle
+    enable: true
