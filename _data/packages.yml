@@ -74,7 +74,7 @@ bern:
     enable: false
   - title: full
     message:
-      en: Sorry, we are full at the moment.
-      fr: Désolé, il n'y a pas de place pour le moment.
-      de: Entschuldigung, wir sint fulle
+      en: Sorry, we have no more availability.
+      fr: Désolé, plus de disponibilité pour le moment.
+      de: Im Moment sind alle Plätze besetzt.
     enable: true
