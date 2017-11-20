@@ -11,6 +11,7 @@ lausanne:
       de: Grossraum-Büro, Mobiliar inklusive
     price: 1’500
     enable: true
+    full: false
   - title: The Den
     surface: 26 m²
     places:
@@ -23,6 +24,7 @@ lausanne:
       de: Eigener Raum und Möblierung
     price: 2’300
     enable: false
+    full: false
   - title: The Hive
     surface: 20 m²
     places:
@@ -35,6 +37,7 @@ lausanne:
       de: Grossraum-Büro, Mobiliar inklusive
     price: 2’000
     enable: true
+    full: false
   - title: The Den
     surface: 26 m²
     places:
@@ -47,6 +50,7 @@ lausanne:
       de: Eigener Raum und Möblierung
     price: 2’300
     enable: false
+    full: false
 bern:
   - title: The Nest
     surface: 16 m²
@@ -59,7 +63,8 @@ bern:
       fr: En open space, mobilier compris
       de: Grossraum-Büro, Mobiliar inklusive
     price: 1’500
-    enable: false
+    enable: true
+    full: true
   - title: The Den
     surface: 26 m²
     places:
@@ -72,9 +77,4 @@ bern:
       de: Eigener Raum und Möblierung
     price: 2’300
     enable: false
-  - title: full
-    message:
-      en: Sorry, we have no more availability.
-      fr: Désolé, plus de disponibilité pour le moment.
-      de: Im Moment sind alle Plätze besetzt.
-    enable: true
+    full: false

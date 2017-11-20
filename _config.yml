@@ -5,7 +5,8 @@ title: ThinkSpace
 baseurl: ""
 url: "http://thinkspace.ch" # the base hostname & protocol for your site
 contact_email: "hello@thinkspace.ch"
-phone: +41 21 533 13 00
+phone_ls: "+41 21 533 13 00"
+phone_be: "+41 31 550 59 70"
 email: "hello@thinkspace.ch"
 twitter_username: liip
 

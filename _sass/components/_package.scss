@@ -19,19 +19,28 @@
   }
 }
 
+.package--full {
+  .package__title,
+  & p {
+    opacity: .3;
+  }
+}
+
   .package__title {
     font-weight: bold;
     text-transform: uppercase;
     color: $alt-color-dark;
   }
 
-  .package__price {
+  .package__footer {
     padding: $spacing-unit-small $spacing-unit-default;
     margin: 0 -#{$spacing-unit-default} -#{$spacing-unit-default};
 
-    font-size: $font-size-medium;
-
     background-color: $alt-color-lighter;
+  }
+
+  .package__price {
+    font-size: $font-size-medium;
   }
 
   .benefit__name {
@@ -39,11 +48,3 @@
     font-weight: bold;
     text-transform: uppercase;
   }
-
-.packages--full {
-  margin: 30px $spacing-unit-default;
-
-  @media (min-width: $screen-sm-max) {
-    margin: 95px $spacing-unit-default;
-  }
-}

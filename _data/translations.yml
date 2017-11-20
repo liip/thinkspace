@@ -24,6 +24,8 @@ en:
     month: month
   testimonials:
     title: Testimonials
+  full:
+    message: Sorry, we have no more availability.
 fr:
   menu:
     concept: Concept
@@ -50,6 +52,8 @@ fr:
     month: mois
   testimonials:
     title: Témoignages
+  full:
+    message: Désolé, plus de disponibilité pour le moment.
 de:
   menu:
     concept: Konzept
@@ -76,4 +80,6 @@ de:
     month: Monat
   testimonials:
     title: Testimonials
+  full:
+    message: Im Moment sind alle Plätze besetzt.
 
