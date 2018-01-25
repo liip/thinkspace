@@ -11,7 +11,7 @@ lausanne:
       de: Grossraum-Büro, Mobiliar inklusive
     price: 1’500
     enable: true
-    full: false
+    full: true
   - title: The Den
     surface: 26 m²
     places:
@@ -24,7 +24,7 @@ lausanne:
       de: Eigener Raum und Möblierung
     price: 2’300
     enable: false
-    full: false
+    full: true
   - title: The Hive
     surface: 20 m²
     places:
@@ -37,7 +37,7 @@ lausanne:
       de: Grossraum-Büro, Mobiliar inklusive
     price: 2’000
     enable: true
-    full: false
+    full: true
   - title: The Den
     surface: 26 m²
     places:
