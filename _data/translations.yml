@@ -22,8 +22,6 @@ en:
     success: Your message has been sent
   other:
     month: month
-  testimonials:
-    title: Testimonials
   full:
     message: Sorry, we have no more availability.
 fr:
@@ -50,8 +48,6 @@ fr:
     success: Votre message a bien été envoyé
   other:
     month: mois
-  testimonials:
-    title: Témoignages
   full:
     message: Désolé, plus de disponibilité pour le moment.
 de:
@@ -78,8 +74,6 @@ de:
     success: Ihre Nachricht wurde erfolgreich abgesendet.
   other:
     month: Monat
-  testimonials:
-    title: Testimonials
   full:
     message: Im Moment sind alle Plätze besetzt.
 
