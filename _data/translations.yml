@@ -3,7 +3,6 @@ en:
     concept: Concept
     benefits: Benefits
     map: Access
-    members: Members
     contact: Contact
   headline:
     line: <span class="headline__title-size--default">Grow your business</span><br /><span class="headline__title-size--small">among</span><br /><span class="headline__title-size--large">extraordinary</span><br /><span class="headline__title-size--default">entrepreneurs</span>
@@ -29,7 +28,6 @@ fr:
     concept: Concept
     benefits: Avantages
     map: Plan
-    members: Membres
     contact: Contact
   headline:
     line: <span class="headline__title-size--default">Grow your business</span><br /><span class="headline__title-size--small">among</span><br /><span class="headline__title-size--large">extraordinary</span><br /><span class="headline__title-size--default">entrepreneurs</span>
@@ -55,7 +53,6 @@ de:
     concept: Konzept
     benefits: Vorteile
     map: Standort
-    members: Mitglieder
     contact: Kontakt
   headline:
     line: <span class="headline__title-size--default">Inspiriertes Arbeiten</span><br /><span class="headline__title-size--small">unter</span><br /><span class="headline__title-size--large">digitalen</span><br /><span class="headline__title-size--default">Visionären</span>
