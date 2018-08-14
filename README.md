@@ -1,9 +1,7 @@
 # Contribute
 
-This a Jekyll website. **Please note that every commit in the 'gh-pages' branch will rebuild the whole website!**
+This a Jekyll website. **Please note that every commit in the 'gh-pages' branch will rebuild the whole website (into _site directory)!**
 
-# Warning
-* _site directory is a build of the website and will always be rewritten
 # Kambasu 1.2.2
 * Kambasu (1.2.2) is gitted in a folder because newest versions are not compatible with this website and because jekyll needs them to build.
 # Development
