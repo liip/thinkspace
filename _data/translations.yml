@@ -3,7 +3,6 @@ en:
     concept: Concept
     benefits: Benefits
     map: Access
-    members: Members
     contact: Contact
   headline:
     line: <span class="headline__title-size--default">Grow your business</span><br /><span class="headline__title-size--small">among</span><br /><span class="headline__title-size--large">extraordinary</span><br /><span class="headline__title-size--default">entrepreneurs</span>
@@ -22,8 +21,6 @@ en:
     success: Your message has been sent
   other:
     month: month
-  testimonials:
-    title: Testimonials
   full:
     message: Sorry, we have no more availability.
 fr:
@@ -31,7 +28,6 @@ fr:
     concept: Concept
     benefits: Avantages
     map: Plan
-    members: Membres
     contact: Contact
   headline:
     line: <span class="headline__title-size--default">Grow your business</span><br /><span class="headline__title-size--small">among</span><br /><span class="headline__title-size--large">extraordinary</span><br /><span class="headline__title-size--default">entrepreneurs</span>
@@ -50,8 +46,6 @@ fr:
     success: Votre message a bien été envoyé
   other:
     month: mois
-  testimonials:
-    title: Témoignages
   full:
     message: Désolé, plus de disponibilité pour le moment.
 de:
@@ -59,7 +53,6 @@ de:
     concept: Konzept
     benefits: Vorteile
     map: Standort
-    members: Mitglieder
     contact: Kontakt
   headline:
     line: <span class="headline__title-size--default">Inspiriertes Arbeiten</span><br /><span class="headline__title-size--small">unter</span><br /><span class="headline__title-size--large">digitalen</span><br /><span class="headline__title-size--default">Visionären</span>
@@ -78,8 +71,6 @@ de:
     success: Ihre Nachricht wurde erfolgreich abgesendet.
   other:
     month: Monat
-  testimonials:
-    title: Testimonials
   full:
     message: Im Moment sind alle Plätze besetzt.
 

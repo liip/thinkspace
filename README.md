@@ -4,6 +4,7 @@ This a Jekyll website. **Please note that every commit in the 'gh-pages' branch 
 
 # Kambasu 1.2.2
 * Kambasu (1.2.2) is gitted in a folder because newest versions are not compatible with this website and because jekyll needs them to build.
+
 # Development
 ## Installation
 
