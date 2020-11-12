@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-4xl tracking-tight font-extrabold leading-none;
+
+    @screen lg {
+      @apply text-5xl;
+    }
+    @screen xl {
+      @apply text-6xl;
+    }
+  }
+
+  h2 {
+    @apply text-2xl font-bold leading-none;
+
+    @screen sm {
+      @apply text-3xl;
+    }
+    @screen lg {
+      @apply text-4xl;
+    }
+  }
+
+  h3 {
+    @apply text-lg font-medium leading-tight;
+
+    @screen md {
+      @apply text-xl;
+    }
+    @screen lg {
+      @apply text-2xl;
+    }
+  }
+}
+
+.icon {
+  vertical-align: middle;
+
+  position: relative;
+  top: -1px;
+}

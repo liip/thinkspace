@@ -1,0 +1,17 @@
+title: The Zen Garden
+picture: /images/south.jpg
+excerpt: Large closed room, south facing position, in a quiet area.
+capacity: 6
+surface: 25
+prices:
+  - 2'500.-
+availability:
+  status: false
+furnitures:
+  - 6 desks Lista Office
+  - 6 chairs Girsberger Yanos
+  - 2 floor lamps
+  - 1 shelf
+position:
+  x: 47
+  y: 85

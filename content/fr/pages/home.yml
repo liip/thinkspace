@@ -1,0 +1,42 @@
+hero:
+  title: Un <span class="text-green-600">espace de partage</span> au cœur de Lausanne.
+  body: Location longue durée d’espaces pour start-ups et PME actives dans le domaine du digital.
+features:
+  title: Vos avantages
+  body: Voici les prestations comprises dans le loyer de tous nos membres. Il va sans dire que l’électricité, le chauffage et l’eau sont également inclus.
+  items:
+    - icon: city
+      title: Emplacement de choix
+      body: À quelques minutes des transports publics, dans un quartier de restaurants et takeaways.
+    - icon: furniture
+      title: Mobilier
+      body: Un bureau et une chaise ergonomique par place ainsi que des étagères et luminaires par zone.
+    - icon: contract
+      title: Contrats flexibles
+      body: Vos besoins ont changé? Modifiez le nombre de places ou résiliez rapidement.
+    - icon: wifi
+      title: Wi-Fi
+      body: Connexion à Internet haut-débit sans limite incluse.
+    - icon: coffee-machine
+      title: Boissons à discrétion
+      body: Café, thé, eau filtrée, c’est open bar!.
+    - icon: printer
+      title: Imprimante
+      body: Laser couleur à votre disposition pour vos impressions.
+    - icon: meeting
+      title: Salles de conférence
+      body: 4 salles de différente taille, dont 3 avec TV, réservable à votre convenance.
+    - icon: sofa
+      title: Espace détente
+      body: Avec canapé et fauteuils, parce qu’il faut parfois savoir débrancher.
+    - icon: cleaning
+      title: Ménage
+      body: Les locaux sont nettoyés profesionnellement 3 fois par semaine.
+contact:
+  title: Prêt·e·s à rejoindre la communauté?
+  body: Nous sommes à votre disposition pour répondre à vos questions ou visiter les lieux.
+spaces:
+  title: Nos espaces
+  body: Situés au 2ème étage de la rue Etraz 4 à Lausanne, nous offrons des surfaces lumineuses avec différentes capacités et configuration possibles; voici un aperçu.
+gallery:
+  title: Visite guidée

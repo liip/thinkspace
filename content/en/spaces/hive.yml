@@ -1,0 +1,20 @@
+title: The Hive
+picture: /images/kitchen.jpg
+excerpt: Open space divisible into several zones from 2 to 8 people.
+capacity: 12
+surface: 65
+prices:
+  - 750.-
+  - 2'500.-
+availability:
+  status: true
+  short: 2 seats available
+  long: 2 seats available in this space
+furnitures:
+  - 12 desks Lista Office
+  - 12 chairs Girsberger Yanos
+  - 6 floor lamps
+  - 3 shelves
+position:
+  x: 22
+  y: 39

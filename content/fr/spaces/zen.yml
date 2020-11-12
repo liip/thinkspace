@@ -1,0 +1,17 @@
+title: Le Jardin Zen
+picture: /images/south.jpg
+excerpt: Grande pièce fermée, orientée Sud, dans un coin calme.
+capacity: 6
+surface: 25
+prices:
+  - 2'500.-
+availability:
+  status: false
+furnitures:
+  - 6 bureaux Lista Office
+  - 6 chaises Girsberger Yanos
+  - 2 lampe sur pied
+  - 1 étagère
+position:
+  x: 47
+  y: 85

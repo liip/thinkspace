@@ -1,0 +1,42 @@
+hero:
+  title: A <span class="text-green-600">sharing space</span> in Lausanne city centre.
+  body: Long-term rental of space for start-ups and SMEs active in the digital field.
+features:
+  title: Your advantages
+  body: Here are the benefits included in the rent of all our members. It goes without saying that electricity, heating and water are also included.
+  items:
+    - icon: city
+      title: Prime location
+      body: A few minutes from public transportation, in a neighborhood of restaurants and takeaways.
+    - icon: furniture
+      title: Furniture
+      body: One ergonomic desk and chair per seat, as well as shelves and lighting per zone.
+    - icon: contract
+      title: Flexible contracts
+      body: Your needs have changed? Change the number of seats or quickly cancel your reservation.
+    - icon: wifi
+      title: Wi-Fi
+      body: Unlimited high-speed Internet connection included.
+    - icon: coffee-machine
+      title: Drinks at will
+      body: Coffee, tea, filtered water, it's happy hour every hour!
+    - icon: printer
+      title: Printer
+      body: Color laser at your disposal for your prints
+    - icon: meeting
+      title: Meeting rooms
+      body: 4 rooms of different sizes, including 3 with TV, can be booked at your convenience.
+    - icon: sofa
+      title: Relaxing area
+      body: With sofa and armchairs, because sometimes it’s great to unplug.
+    - icon: cleaning
+      title: Housekeeping
+      body: The office is professionally cleaned 3 times a week.
+contact:
+  title: Ready to join the community?
+  body: We are at your disposal to answer your questions or to visit the place.
+spaces:
+  title: Our spaces
+  body: Located on the 2nd floor of the Rue Etraz 4 in Lausanne, we offer bright surfaces with different capacities and configurations; here is an overview.
+gallery:
+  title: Guided tour

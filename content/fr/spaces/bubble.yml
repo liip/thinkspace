@@ -1,0 +1,19 @@
+title: La Bulle
+picture: /images/lake.jpg
+excerpt: Pièce privée, orientée Sud, avec vue sur le lac.
+capacity: 3
+surface: 20
+prices:
+  - 1'500.-
+availability:
+  status: true
+  short: Disponible
+  long: Cet espace est disponible
+furnitures:
+  - 3 bureaux Lista Office
+  - 3 chaises Girsberger Yanos
+  - 1 lampe sur pied
+  - 1 étagère
+position:
+  x: 10
+  y: 4

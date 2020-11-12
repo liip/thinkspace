@@ -1,0 +1,20 @@
+title: La Ruche
+picture: /images/kitchen.jpg
+excerpt: Open space divisible en plusieurs zones de 2 à 8 personnes.
+capacity: 12
+surface: 65
+prices:
+  - 750.-
+  - 2'500.-
+availability:
+  status: true
+  short: 2 places disponibles
+  long: 2 places disponibles dans cet espace
+furnitures:
+  - 12 bureaux Lista Office
+  - 12 chaises Girsberger Yanos
+  - 6 lampes sur pied
+  - 3 étagères
+position:
+  x: 22
+  y: 39
