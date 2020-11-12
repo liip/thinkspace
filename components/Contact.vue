@@ -5,7 +5,7 @@
       :class="colors.bg"
     >
       <div class="mb-4 md:mb-0 md:mr-12 md:flex-1">
-        <h2 class="text-white mb-3">{{ title }}</h2>
+        <div class="h3 text-white mb-3">{{ title }}</div>
         <p v-if="body" class="text-medium" :class="colors.text">
           {{ body }}
         </p>

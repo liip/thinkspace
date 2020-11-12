@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 @layer base {
-  h1 {
+  h1,
+  .h1 {
     @apply text-4xl tracking-tight font-extrabold leading-none;
 
     @screen lg {
@@ -14,19 +15,30 @@
     }
   }
 
-  h2 {
-    @apply text-2xl font-bold leading-none;
+  h2,
+  .h2 {
+    @apply text-3xl font-bold leading-none;
 
-    @screen sm {
-      @apply text-3xl;
-    }
     @screen lg {
       @apply text-4xl;
     }
+    @screen xl {
+      @apply text-5xl;
+    }
   }
 
-  h3 {
-    @apply text-xl font-medium leading-tight;
+  h3,
+  .h3 {
+    @apply text-2xl font-bold leading-none;
+
+    @screen lg {
+      @apply text-3xl;
+    }
+  }
+
+  h4,
+  .h4 {
+    @apply text-xl font-medium leading-none;
 
     @screen lg {
       @apply text-2xl;

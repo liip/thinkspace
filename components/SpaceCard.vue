@@ -38,7 +38,7 @@
           :key="i"
           class="text-2xl font-bold text-green-600"
         >
-          <span v-if="i !== 0" class="text-gray-600 font-normal">∕</span>
+          <span v-if="i !== 0" class="text-green-400 font-normal">∕</span>
           {{ price }}
         </span>
         <span class="text-sm text-gray-600">

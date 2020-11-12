@@ -9,7 +9,7 @@
       </nuxt-link>
     </div>
 
-    <Hero :picture="space.picture">
+    <Hero :picture="space.picture" class="relative">
       <h1>{{ space.title }}</h1>
       <p v-if="space.excerpt" class="mt-2 text-lg sm:text-xl text-gray-600">
         {{ space.excerpt }}
@@ -19,9 +19,9 @@
         <span
           v-for="(price, i) in space.prices"
           :key="i"
-          class="text-4xl font-bold text-green-600"
+          class="text-3xl lg:text-4xl font-bold text-green-600"
         >
-          <span v-if="i !== 0" class="text-gray-600 font-normal">∕</span>
+          <span v-if="i !== 0" class="text-green-400 font-normal">∕</span>
           {{ price }}
         </span>
         <span class="text-sm text-gray-600">
@@ -46,57 +46,60 @@
       </div>
     </Hero>
 
-    <Contact
-      :title="
-        space.availability.status
-          ? space.availability.long
-          : $t('space.notAvailable.long')
-      "
-      :body="
-        space.availability.status
-          ? $t('space.available.body')
-          : $t('space.notAvailable.body')
-      "
-      :color="!space.availability.status ? 'red' : undefined"
-      class="-mt-24"
-    />
+    <div class="bg-gray-200">
+      <Contact
+        :title="
+          space.availability.status
+            ? space.availability.long
+            : $t('space.notAvailable.long')
+        "
+        :body="
+          space.availability.status
+            ? $t('space.available.body')
+            : $t('space.notAvailable.body')
+        "
+        :color="!space.availability.status ? 'red' : undefined"
+        class="-mt-24"
+      />
 
-    <Section>
-      <div class="grid md:grid-cols-3 gap-8 md:gap-12 lg:gap-16">
-        <div class="md:col-span-2">
-          <FloorPlan :spaces="spaces" :highlight="space.slug" />
-        </div>
-
-        <div
-          class="md:col-span-1 grid sm:grid-cols-2 md:grid-cols-1 content-start gap-6 md:gap-8 lg:gap-12"
-        >
-          <div>
-            <h3 class="mb-3">{{ $t('space.furnitures.main') }}</h3>
-            <ul class="space-y-2 text-gray-600">
-              <li v-for="(furniture, i) in space.furnitures" :key="i">
-                {{ furniture }}
-              </li>
-            </ul>
+      <Section>
+        <div class="grid md:grid-cols-3 gap-8 md:gap-12 lg:gap-16">
+          <div class="md:col-span-2">
+            <h2 class="h4 mb-3">Plan</h2>
+            <FloorPlan :spaces="spaces" :highlight="space.slug" />
           </div>
 
-          <div>
-            <h3 class="mb-3">{{ $t('space.furnitures.others') }}</h3>
-            <ul class="space-y-2 text-gray-600">
-              <li v-for="(feature, i) in page.features" :key="i">
-                {{ feature }}
-              </li>
-              <li>
-                <nuxt-link
-                  :to="`${localePath('/')}#advantages`"
-                  class="text-green-600 font-medium hover:text-green-500 focus:text-green-500"
-                  >{{ $t('space.features.all') }} →</nuxt-link
-                >
-              </li>
-            </ul>
+          <div
+            class="md:col-span-1 grid sm:grid-cols-2 md:grid-cols-1 content-start gap-6 md:gap-8 lg:gap-12"
+          >
+            <div>
+              <h2 class="h4 mb-3">{{ $t('space.furnitures.main') }}</h2>
+              <ul class="space-y-2 text-gray-600">
+                <li v-for="(furniture, i) in space.furnitures" :key="i">
+                  {{ furniture }}
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <h2 class="h4 mb-3">{{ $t('space.furnitures.others') }}</h2>
+              <ul class="space-y-2 text-gray-600">
+                <li v-for="(feature, i) in page.features" :key="i">
+                  {{ feature }}
+                </li>
+                <li>
+                  <nuxt-link
+                    :to="`${localePath('/')}#advantages`"
+                    class="text-green-600 font-medium hover:text-green-500 focus:text-green-500"
+                    >{{ $t('space.features.all') }} →</nuxt-link
+                  >
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
-      </div>
-    </Section>
+      </Section>
+    </div>
   </div>
 </template>
 
