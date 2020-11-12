@@ -26,11 +26,8 @@
   }
 
   h3 {
-    @apply text-lg font-medium leading-tight;
+    @apply text-xl font-medium leading-tight;
 
-    @screen md {
-      @apply text-xl;
-    }
     @screen lg {
       @apply text-2xl;
     }

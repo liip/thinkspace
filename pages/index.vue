@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Hero picture="/images/kitchen.jpg">
+    <Hero picture="kitchen">
       <!-- eslint-disable vue/no-v-html -->
       <h1 v-html="page.hero.title" />
       <p

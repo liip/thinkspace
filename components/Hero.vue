@@ -1,7 +1,13 @@
 <template>
   <section class="grid md:grid-cols-3 bg-green-100">
     <div class="media relative md:col-span-2">
-      <img :src="picture" alt="" class="object-cover w-full h-full" />
+      <Picture
+        :sources="sources"
+        :img="{
+          src: `/images/thumbs/${picture}-xl.jpg`,
+          class: 'object-cover w-full h-full',
+        }"
+      />
     </div>
 
     <div
@@ -28,6 +34,18 @@ export default {
     picture: {
       type: String,
       required: true,
+    },
+  },
+
+  computed: {
+    sources() {
+      return ['webp', 'jpg'].map((type) => {
+        return {
+          srcset: `/images/thumbs/${this.picture}-xl.${type} 1200w, /images/thumbs/${this.picture}-lg.${type} 1000w, /images/thumbs/${this.picture}-md.${type} 800w, /images/thumbs/${this.picture}-sm.${type} 600w, /images/thumbs/${this.picture}-xs.${type} 400w`,
+          type: `image/${type}`,
+          sizes: '(min-width: 768px) 66vw, 100vw',
+        };
+      });
     },
   },
 };

@@ -3,18 +3,20 @@
     :to="localePath(`/spaces/${slug}`)"
     class="overflow-hidden bg-white rounded-xl shadow-lg flex flex-col transform transition-all duration-200 transition-ease-out hover:shadow-xl hover:-translate-y-1"
   >
-    <img
-      :src="picture"
-      loading="lazy"
-      width="300"
-      height="200"
-      class="w-full"
-      alt=""
+    <Picture
+      :sources="sources"
+      :img="{
+        src: `/images/thumbs/${picture}-xl.jpg`,
+        class: 'w-full',
+        width: 300,
+        height: 200,
+        loading: 'lazy',
+      }"
     />
     <div class="p-4 xl:p-6 flex-grow flex flex-col">
       <div class="flex-grow">
         <div class="flex flex-wrap items-center mb-1">
-          <h3 class="mr-auto mb-2">{{ title }}</h3>
+          <h3 class="mr-auto mb-2 pr-3">{{ title }}</h3>
           <div class="mb-2">
             <span
               class="inline-block px-4 py-1 text-sm font-medium rounded-full"
@@ -110,6 +112,17 @@ export default {
         'text-red-800 bg-red-200': !this.availability.status,
         'text-green-800 bg-green-200': this.availability.status,
       };
+    },
+
+    sources() {
+      return ['webp', 'jpg'].map((type) => {
+        return {
+          srcset: `/images/thumbs/${this.picture}-xl.${type} 1200w, /images/thumbs/${this.picture}-lg.${type} 1000w, /images/thumbs/${this.picture}-md.${type} 800w, /images/thumbs/${this.picture}-sm.${type} 600w, /images/thumbs/${this.picture}-xs.${type} 400w`,
+          type: `image/${type}`,
+          sizes:
+            '(min-width: 1280px) 373px, (min-width: 1024px) 299px, (min-width: 768px) 336px, (min-width: 640px) 288px, 100vw',
+        };
+      });
     },
   },
 };
