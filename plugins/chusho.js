@@ -1,5 +1,5 @@
 import Vue from 'vue';
-import Chusho from 'chusho';
+import Chusho, { CBtn, CIcon } from 'chusho';
 
 Vue.use(Chusho, {
   components: {
@@ -18,3 +18,6 @@ Vue.use(Chusho, {
     },
   },
 });
+
+Vue.component('CBtn', CBtn);
+Vue.component('CIcon', CIcon);
