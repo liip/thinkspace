@@ -6,7 +6,7 @@
     <Picture
       :sources="sources"
       :img="{
-        src: `/images/thumbs/${picture}-xl.jpg`,
+        src: picture ? `/images/thumbs/${picture}-xl.jpg` : '/placeholder.svg',
         class: 'w-full',
         width: 300,
         height: 200,
@@ -82,7 +82,7 @@ export default {
     },
     picture: {
       type: String,
-      required: true,
+      default: null,
     },
     excerpt: {
       type: String,
@@ -115,14 +115,16 @@ export default {
     },
 
     sources() {
-      return ['webp', 'jpg'].map((type) => {
-        return {
-          srcset: `/images/thumbs/${this.picture}-xl.${type} 1200w, /images/thumbs/${this.picture}-lg.${type} 1000w, /images/thumbs/${this.picture}-md.${type} 800w, /images/thumbs/${this.picture}-sm.${type} 600w, /images/thumbs/${this.picture}-xs.${type} 400w`,
-          type: `image/${type}`,
-          sizes:
-            '(min-width: 1280px) 373px, (min-width: 1024px) 299px, (min-width: 768px) 336px, (min-width: 640px) 288px, 100vw',
-        };
-      });
+      return this.picture
+        ? ['webp', 'jpg'].map((type) => {
+            return {
+              srcset: `/images/thumbs/${this.picture}-xl.${type} 1200w, /images/thumbs/${this.picture}-lg.${type} 1000w, /images/thumbs/${this.picture}-md.${type} 800w, /images/thumbs/${this.picture}-sm.${type} 600w, /images/thumbs/${this.picture}-xs.${type} 400w`,
+              type: `image/${type}`,
+              sizes:
+                '(min-width: 1280px) 373px, (min-width: 1024px) 299px, (min-width: 768px) 336px, (min-width: 640px) 288px, 100vw',
+            };
+          })
+        : [];
     },
   },
 };

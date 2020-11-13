@@ -33,7 +33,7 @@ export default {
   props: {
     picture: {
       type: String,
-      required: true,
+      default: 'terrace',
     },
   },
 
