@@ -3,7 +3,7 @@
     <div class="absolute top-0 right-0 z-10 mr-4">
       <nuxt-link
         :to="switchLocalePath(otherLocale.code)"
-        class="inline-block px-4 py-2 text-sm leading-tight bg-white bg-opacity-50 hover:bg-opacity-75 focus:bg-opacity-75 rounded-b"
+        class="inline-block px-4 py-2 md:py-3 md:px-5 text-sm leading-tight bg-white bg-opacity-50 hover:bg-opacity-75 focus:bg-opacity-75 rounded-b"
       >
         {{ otherLocale.label }}
       </nuxt-link>

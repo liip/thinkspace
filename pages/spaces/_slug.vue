@@ -74,7 +74,7 @@
           >
             <div>
               <h2 class="h4 mb-3">{{ $t('space.furnitures.main') }}</h2>
-              <ul class="space-y-2 text-gray-600">
+              <ul class="checklist space-y-2 text-gray-700">
                 <li v-for="(furniture, i) in space.furnitures" :key="i">
                   {{ furniture }}
                 </li>
@@ -83,18 +83,16 @@
 
             <div>
               <h2 class="h4 mb-3">{{ $t('space.furnitures.others') }}</h2>
-              <ul class="space-y-2 text-gray-600">
+              <ul class="checklist space-y-2 text-gray-700 mb-3">
                 <li v-for="(feature, i) in page.features" :key="i">
                   {{ feature }}
                 </li>
-                <li>
-                  <nuxt-link
-                    :to="`${localePath('/')}#advantages`"
-                    class="text-green-600 font-medium hover:text-green-500 focus:text-green-500"
-                    >{{ $t('space.features.all') }} →</nuxt-link
-                  >
-                </li>
               </ul>
+              <nuxt-link
+                :to="`${localePath('/')}#advantages`"
+                class="text-green-600 font-medium hover:text-green-500 focus:text-green-500"
+                >{{ $t('space.features.all') }} →</nuxt-link
+              >
             </div>
           </div>
         </div>
@@ -133,3 +131,14 @@ export default {
   },
 };
 </script>
+
+<style>
+.checklist > li {
+  @apply pl-8;
+
+  background-image: url('data:image/svg+xml;utf8,%3Csvg%20viewBox%3D%220%200%2024%2024%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22m9.001%2019.001c-.134%200-.259-.052-.354-.147l-5-5c-.195-.195-.195-.512%200-.707.094-.094.22-.146.354-.146s.259.052.354.146l4.606%204.606%2014.151-17.566c.096-.119.238-.186.39-.186.114%200%20.225.039.313.111.104.084.169.203.183.336s-.024.263-.108.367l-14.5%2018c-.088.11-.22.178-.361.185-.005.001-.023.001-.028.001z%22%20fill%3D%22%23718096%22%2F%3E%3Cpath%20d%3D%22m9.488%2023.99c-1.775%200-3.516-.505-5.035-1.459-2.147-1.35-3.639-3.455-4.203-5.927-1.163-5.104%202.043-10.202%207.146-11.366.688-.157%201.396-.236%202.104-.236%201.461%200%202.921.341%204.223.987.12.059.209.162.252.288.043.127.033.262-.026.382-.084.171-.256.278-.448.278-.077%200-.154-.018-.222-.052-1.165-.578-2.471-.883-3.778-.883-.634%200-1.267.071-1.882.212-4.566%201.041-7.434%205.602-6.393%2010.168.504%202.212%201.839%204.095%203.76%205.302%201.359.854%202.917%201.306%204.504%201.306.636%200%201.277-.073%201.904-.215%202.212-.504%204.095-1.84%205.302-3.76%201.208-1.921%201.595-4.196%201.091-6.408-.03-.13-.007-.265.064-.378s.182-.192.312-.221c.035-.008.074-.013.113-.013.233%200%20.433.16.485.389.564%202.473.131%205.017-1.219%207.163-1.35%202.147-3.454%203.639-5.927%204.203-.7.159-1.416.24-2.127.24z%22%20fill%3D%22%23CBD5E0%22%2F%3E%3C%2Fsvg%3E');
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 18px 18px;
+}
+</style>

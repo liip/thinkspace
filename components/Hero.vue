@@ -16,7 +16,7 @@
       <div class="container md:max-w-xl md:px-10 lg:px-12">
         <nuxt-link
           :to="localePath('/')"
-          class="inline-block transition-opacity ease-out duration-200 hover:opacity-75"
+          class="inline-block transition-opacity ease-out duration-200 hover:opacity-75 focus:opacity-75"
           :title="$t('nav.home')"
         >
           <img class="h-12 sm:h-16 w-auto mb-4" src="/logo.svg" alt="" />

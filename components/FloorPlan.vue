@@ -20,8 +20,8 @@
       class="tip absolute w-5 h-5 rounded-full border-2 border-white shadow-md"
       :class="
         tip.id === highlight
-          ? 'bg-purple-600 hover:bg-purple-500'
-          : 'bg-green-600 hover:bg-green-500'
+          ? 'bg-purple-600 hover:bg-purple-500 focus:bg-purple-500'
+          : 'bg-green-600 hover:bg-green-500 focus:bg-green-500'
       "
       :style="{ top: `${tip.position.y}%`, left: `${tip.position.x}%` }"
     ></button>

@@ -1,7 +1,7 @@
 <template>
   <nuxt-link
     :to="localePath(`/spaces/${slug}`)"
-    class="overflow-hidden bg-white rounded-xl shadow-lg flex flex-col transform transition-all duration-200 transition-ease-out hover:shadow-xl hover:-translate-y-1"
+    class="overflow-hidden bg-white rounded-xl shadow-lg flex flex-col transform transition-all duration-200 transition-ease-out hover:shadow-xl hover:-translate-y-1 focus:shadow-xl focus:-translate-y-1"
   >
     <Picture
       :sources="sources"
