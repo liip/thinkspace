@@ -6,6 +6,8 @@
         :img="{
           src: `/images/thumbs/${picture}-xl.jpg`,
           class: 'object-cover w-full h-full',
+          width: 800,
+          height: 600,
         }"
       />
     </div>
@@ -19,7 +21,13 @@
           class="inline-block transition-opacity ease-out duration-200 hover:opacity-75 focus:opacity-75"
           :title="$t('nav.home')"
         >
-          <img class="h-12 sm:h-16 w-auto mb-4" src="/logo.svg" alt="" />
+          <img
+            class="h-12 sm:h-16 w-auto mb-4"
+            src="/logo.svg"
+            width="207"
+            height="64"
+            alt=""
+          />
         </nuxt-link>
 
         <slot />
