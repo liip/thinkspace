@@ -30,7 +30,7 @@ export default {
       others: 'But also…',
     },
     features: {
-      all: 'Voir tous les avantages',
+      all: 'See all benefits',
     },
     more: 'Learn more',
   },
@@ -50,6 +50,6 @@ export default {
     },
   },
   footer: {
-    liip: 'An initiative of {0}',
+    liip: 'A {0} initiative',
   },
 };
