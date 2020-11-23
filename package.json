@@ -5,7 +5,7 @@
   "scripts": {
     "start": "nuxt",
     "build": "nuxt generate",
-    "generate:thumbs": "node ./scripts/image-thumbs.js",
+    "generate:thumbs": "rm -rf ./static/images/thumbs/* && node ./scripts/image-thumbs.js",
     "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "lint": "npm run lint:js"
   },
