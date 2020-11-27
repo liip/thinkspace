@@ -6,6 +6,8 @@
         :img="{
           src: `/images/thumbs/${image.picture}-lg.jpg`,
           class: 'w-full h-full object-cover rounded-xl shadow-lg',
+          width: image.width,
+          height: image.height,
           loading: 'lazy',
         }"
       />
@@ -21,36 +23,48 @@ export default {
         {
           picture: 'east',
           class: 'sm:col-span-4 sm:row-span-1',
+          width: 2000,
+          height: 1333,
           sizes:
             '(min-width: 1280px) 800px, (min-width: 1024px) 629px, (min-width: 768px) 462px, (min-width: 640px) 340px, 100vw',
         },
         {
           picture: 'lounge',
           class: 'sm:col-span-2 sm:row-span-1',
+          width: 3024,
+          height: 4032,
           sizes:
             '(min-width: 1280px) 384px, (min-width: 1024px) 298px, (min-width: 768px) 219px, (min-width: 640px) 187px, 100vw',
         },
         {
           picture: 'north',
           class: 'sm:col-span-2 sm:row-span-1',
+          width: 888,
+          height: 1333,
           sizes:
             '(min-width: 1280px) 384px, (min-width: 1024px) 298px, (min-width: 768px) 219px, (min-width: 640px) 187px, 100vw',
         },
         {
           picture: 'terrace',
           class: 'sm:col-span-4 sm:row-span-1',
+          width: 4032,
+          height: 2688,
           sizes:
             '(min-width: 1280px) 800px, (min-width: 1024px) 629px, (min-width: 768px) 462px, (min-width: 640px) 340px, 100vw',
         },
         {
           picture: 'kitchen',
           class: 'sm:col-span-3 sm:row-span-1',
+          width: 4032,
+          height: 2688,
           sizes:
             '(min-width: 1280px) 592px, (min-width: 1024px) 464px, (min-width: 768px) 340px, (min-width: 640px) 292px, 100vw',
         },
         {
           picture: 'kitchen-2',
           class: 'sm:col-span-3 sm:row-span-1',
+          width: 4032,
+          height: 2688,
           sizes:
             '(min-width: 1280px) 592px, (min-width: 1024px) 464px, (min-width: 768px) 340px, (min-width: 640px) 292px, 100vw',
         },

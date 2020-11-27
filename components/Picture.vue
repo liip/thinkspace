@@ -7,7 +7,13 @@
       :type="source.type"
       :srcset="source.srcset"
     />
-    <img v-bind="img" :alt="img.alt || ''" />
+    <img
+      v-bind="img"
+      :alt="img.alt || ''"
+      :width="img.width"
+      :height="img.height"
+      :loading="img.loading"
+    />
   </picture>
 </template>
 
