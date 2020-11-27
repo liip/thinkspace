@@ -1,9 +1,9 @@
 hero:
   title: Un <span class="text-green-600">espace de partage</span> au cœur de Lausanne.
-  body: Location longue durée d’espaces pour start-ups et PME actives dans le domaine du digital.
+  body: Location longue durée d’espaces pour start-up et PME actives dans le domaine digital.
 features:
   title: Vos avantages
-  body: Voici les prestations comprises dans le loyer de tous nos membres. Il va sans dire que l’électricité, le chauffage et l’eau sont également inclus.
+  body: Voici les prestations comprises dans votre loyer de en tant que membre du ThinkSpace. Il va sans dire que l’électricité, le chauffage et l’eau sont également inclus.
   items:
     - icon: city
       title: Emplacement de choix
@@ -16,7 +16,7 @@ features:
       body: Vos besoins ont changé? Modifiez le nombre de places ou résiliez rapidement.
     - icon: wifi
       title: Wi-Fi
-      body: Connexion à Internet haut-débit sans limite incluse.
+      body: Connexion à Internet haut-débit sans limite.
     - icon: coffee-machine
       title: Boissons à discrétion
       body: Café, thé, eau filtrée, c’est open bar!
@@ -47,6 +47,6 @@ faq:
     - question: Est-il possible de louer des places à la journée/semaine/mois?
       answer: Malheureusement non, le ThinkSpace offre uniquement des contrats à durée indéterminée.
     - question: Quel est le délai de résiliation du contrat?
-      answer: Nous nous devons de vous prévenir 6 mois à l’avance en cas de fin de bail. En cas de départ de votre initiative, nous appliquons un préavis usuel de 3 mois. Vous n’avez pas besoin de trouver un remplaçant.
+      answer: Nous nous devons de vous prévenir 6 mois à l’avance en cas de fin de bail. En cas de départ de votre initiative, nous appliquons un préavis usuel de 3 mois. Vous n’avez pas besoin de trouver un·e remplaçant·e.
     - question: Y a-t-il un espace extérieur?
       answer: Oui, nous jouissons d’une grande terrasse avec vue sur le lac à l’étage supérieur, en accès libre durant les heures de bureau.

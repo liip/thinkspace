@@ -4,7 +4,7 @@ export default {
   },
   meta: {
     description:
-      'Long-term rental of space for start-ups and SMEs active in the digital field.',
+      'Long-term rental of space for start-up and SMEs active in the digital field.',
   },
   space: {
     available: {

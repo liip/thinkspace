@@ -4,7 +4,7 @@ export default {
   },
   meta: {
     description:
-      'Location longue durée d’espaces pour start-ups et PME actives dans le domaine du digital.',
+      'Location longue durée d’espaces pour start-up et PME actives dans le domaine digital.',
   },
   space: {
     available: {

@@ -1,6 +1,6 @@
 hero:
   title: A <span class="text-green-600">sharing space</span> in Lausanne city centre.
-  body: Long-term rental of space for start-ups and SMEs active in the digital field.
+  body: Long-term rental of space for start-up and SMEs active in the digital field.
 features:
   title: Your advantages
   body: Here are the benefits included in the rent of all our members. It goes without saying that electricity, heating and water are also included.
@@ -16,7 +16,7 @@ features:
       body: Your needs have changed? Change the number of seats or quickly cancel your reservation.
     - icon: wifi
       title: Wi-Fi
-      body: Unlimited high-speed Internet connection included.
+      body: Unlimited high-speed Internet connection.
     - icon: coffee-machine
       title: Drinks at will
       body: Coffee, tea, filtered water, it’s happy hour every hour!
