@@ -27,6 +27,10 @@
       </Section>
     </div>
 
+    <Section :title="page.faq.title" :body="page.faq.body">
+      <Faq :items="page.faq.items" />
+    </Section>
+
     <Section v-bind="page.gallery" class="bg-gray-700 text-white">
       <Gallery />
     </Section>

@@ -40,3 +40,13 @@ spaces:
   body: Situés au 2ème étage de la rue Etraz 4 à Lausanne, nous offrons des surfaces lumineuses avec différentes capacités et configuration possibles; voici un aperçu.
 gallery:
   title: Visite guidée
+faq:
+  title: FAQ
+  body: Questions fréquemment posées
+  items:
+    - question: Est-il possible de louer des places à la journée/semaine/mois?
+      answer: Malheureusement non, le ThinkSpace offre uniquement des contrats à durée indéterminée.
+    - question: Quel est le délai de résiliation du contrat?
+      answer: Nous nous devons de vous prévenir 6 mois à l’avance en cas de fin de bail. En cas de départ de votre initiative, nous appliquons un préavis usuel de 3 mois. Vous n’avez pas besoin de trouver un remplaçant.
+    - question: Y a-t-il un espace extérieur?
+      answer: Oui, nous jouissons d’une grande terrasse avec vue sur le lac à l’étage supérieur, en accès libre durant les heures de bureau.

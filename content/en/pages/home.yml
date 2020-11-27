@@ -40,3 +40,13 @@ spaces:
   body: Located on the 2nd floor of the Rue Etraz 4 in Lausanne, we offer bright surfaces with different capacities and configurations; here is an overview.
 gallery:
   title: Guided tour
+faq:
+  title: FAQ
+  body: Frequently asked questions
+  items:
+    - question: Is it possible to rent a space for a day/week/month?
+      answer: Unfortunately no, the ThinkSpace offer only open-ended contracts.
+    - question: What is the notice period for terminating the contract?
+      answer: We have to notify you 6 months in advance in case of lease termination. If you decide to leave us, we apply an usual 3 months notice. You do not have to find a successor.
+    - question: Is there an outdoor space?
+      answer: Yes, we have a large terrace with lake view on the upper floor, freely accessible during office hours.
