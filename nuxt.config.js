@@ -40,7 +40,13 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
-    'nuxt-i18n',
+    [
+      'nuxt-i18n',
+      {
+        seo: true,
+        baseUrl: 'https://thinkspace.ch',
+      },
+    ],
   ],
 
   i18n: {
@@ -48,10 +54,12 @@ export default {
       {
         code: 'fr',
         file: 'fr.js',
+        iso: 'fr-CH',
       },
       {
         code: 'en',
         file: 'en.js',
+        iso: 'en-US',
       },
     ],
     lazy: true,

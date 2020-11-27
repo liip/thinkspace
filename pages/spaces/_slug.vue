@@ -123,7 +123,6 @@ export default {
       meta: [
         {
           hid: 'description',
-          name: 'description',
           content: this.space.excerpt,
         },
       ],
