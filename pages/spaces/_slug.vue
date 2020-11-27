@@ -16,14 +16,22 @@
       </p>
 
       <div class="mt-3">
-        <span
-          v-for="(price, i) in space.prices"
-          :key="i"
-          class="text-3xl lg:text-4xl font-bold text-green-600"
-        >
-          <span v-if="i !== 0" class="text-green-400 font-normal">∕</span>
-          {{ price }}
+        <template v-if="Array.isArray(space.prices)">
+          <span class="text-sm text-gray-600">{{
+            $t('space.price.from')
+          }}</span>
+          <span class="text-3xl lg:text-4xl font-bold text-green-600">
+            {{ space.prices[0] }}
+          </span>
+          <span class="text-sm text-gray-600">{{ $t('space.price.to') }}</span>
+          <span class="text-3xl lg:text-4xl font-bold text-green-600">
+            {{ space.prices[1] }}
+          </span>
+        </template>
+        <span v-else class="text-3xl lg:text-4xl font-bold text-green-600">
+          {{ space.prices }}
         </span>
+
         <span class="text-sm text-gray-600">
           {{ $t('space.price.currency') }}
           <abbr :title="$t('space.price.taxes.full')">{{

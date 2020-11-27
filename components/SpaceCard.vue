@@ -33,13 +33,16 @@
         <div class="text-gray-600">{{ excerpt }}</div>
       </div>
       <div class="mt-3">
-        <span
-          v-for="(price, i) in prices"
-          :key="i"
-          class="text-2xl font-bold text-green-600"
-        >
-          <span v-if="i !== 0" class="text-green-400 font-normal">∕</span>
-          {{ price }}
+        <template v-if="Array.isArray(prices)">
+          <span class="text-sm text-gray-600">{{
+            $t('space.price.starting')
+          }}</span>
+          <span class="text-2xl font-bold text-green-600">
+            {{ prices[0] }}
+          </span>
+        </template>
+        <span v-else class="text-2xl font-bold text-green-600">
+          {{ prices }}
         </span>
         <span class="text-sm text-gray-600">
           {{ $t('space.price.currency') }}
@@ -89,7 +92,7 @@ export default {
       required: true,
     },
     prices: {
-      type: Array,
+      type: [String, Array],
       required: true,
     },
     capacity: {

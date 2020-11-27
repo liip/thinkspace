@@ -18,6 +18,9 @@ export default {
         'Inform us of your interest and we will contact you when it becomes available.',
     },
     price: {
+      starting: 'starting at',
+      from: 'from',
+      to: 'to',
       currency: 'CHF /month',
       taxes: {
         abbr: 'excl.',

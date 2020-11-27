@@ -3,8 +3,7 @@ picture: bubble
 excerpt: Pièce privée orientée Sud pour une petite équipe.
 capacity: 3
 surface: 20
-prices:
-  - 1'500.-
+prices: 1'500.-
 availability:
   status: true
   short: Disponible

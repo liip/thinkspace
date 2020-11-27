@@ -18,6 +18,9 @@ export default {
         'Informez-nous de votre intérêt et nous vous recontacterons lorsque celui-ci sera disponible.',
     },
     price: {
+      starting: 'dès',
+      from: 'de',
+      to: 'à',
       currency: 'CHF / mois',
       taxes: {
         abbr: 'HT',
