@@ -1,10 +1,10 @@
 title: La Ruche
 picture: hive
-excerpt: Open space divisible en plusieurs zones de 2 à 8 personnes.
+excerpt: Open space divisible en plusieurs zones de 1 à 8 personnes.
 capacity: 12
 surface: 65
 prices:
-  - 750.-
+  - 375.-
   - 2'500.-
 availability:
   status: true

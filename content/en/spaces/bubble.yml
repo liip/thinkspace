@@ -5,9 +5,9 @@ capacity: 3
 surface: 20
 prices: 1'500.-
 availability:
-  status: false
-  # short: Available
-  # long: This space is available
+  status: true
+  short: Available
+  long: This space is available
 furnitures:
   - 3 desks Lista Office
   - 3 chairs Girsberger Yanos
