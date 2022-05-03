@@ -15,7 +15,7 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
     ],
     htmlAttrs: {
-      class: 'antialiased text-gray-800',
+      class: 'antialiased text-gray-800 bg-white',
     },
   },
 
