@@ -32,6 +32,6 @@
     "prettier": "^2.1.2",
     "push-dir": "^0.4.1",
     "sharp": "^0.30.5",
-    "svg-sprite-loader": "^5.0.0"
+    "svg-sprite-loader": "^5.2.1"
   }
 }
