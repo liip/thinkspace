@@ -5,7 +5,7 @@ capacity: 3
 surface: 20
 prices: 1'500.-
 availability:
-  status: true
+  status: false
   short: 3 seats available
   long: 3 seats available in this space
 furnitures:
