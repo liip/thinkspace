@@ -8,8 +8,8 @@ prices:
   - 2'500.-
 availability:
   status: true
-  short: 1 place disponible
-  long: 1 place disponible dans cet espace
+  short: 4 places disponibles
+  long: 4 places disponibles dans cet espace
 furnitures:
   - 12 bureaux Lista Office
   - 12 chaises Girsberger Yanos
