@@ -7,7 +7,7 @@ prices:
   - 375.-
   - 2'500.-
 availability:
-  status: true
+  status: false
   short: 2 seats available
   long: 2 seats available in this space
 furnitures:

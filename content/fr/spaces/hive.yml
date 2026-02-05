@@ -7,7 +7,7 @@ prices:
   - 375.-
   - 2'500.-
 availability:
-  status: true
+  status: false
   short: 2 places disponibles
   long: 2 places disponibles dans cet espace
 furnitures:
